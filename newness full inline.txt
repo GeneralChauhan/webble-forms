@@ -1,0 +1,31 @@
+<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+
+<div class="w-100" style="margin: 0;padding: 0;border-collapse: collapse;font-family: Arial;text-align: left;">
+    <table class="tableInNewness" style="margin: 0;padding: 0;border-collapse: collapse;font-family: Arial;text-align: left;width: 100%;">
+        <tr class="imgTab" style="margin: 0;padding: 0;border-collapse: collapse;font-family: Arial;text-align: left;">
+            <td style="margin: 0;padding: 0;border-collapse: collapse;font-family: Arial;text-align: center;align-content: center;align-items: center;width: 25%;object-fit: cover;height: 20% !important;"><img src="https://images.rbis-go.averydennison.com/EloquaImages/clients/AveryDennisonCorporation/%7Bbc6139c8-13b7-491d-9bb0-97d6d58ff801%7D_Screenshot_2023-04-25_at_12.15.12_AM.png" style="margin: 0;padding: 0;border-collapse: collapse;font-family: Arial;text-align: left;object-fit: cover;height: 100% !important;width: 100% !important;"></td>
+            <td style="margin: 0;padding: 0;border-collapse: collapse;font-family: Arial;text-align: center;align-content: center;align-items: center;width: 25%;object-fit: cover;height: 20% !important;"><img src="https://images.rbis-go.averydennison.com/EloquaImages/clients/AveryDennisonCorporation/%7Bed901e73-7c2e-4eb5-99eb-50db2e72545d%7D_Screenshot_2023-04-25_at_12.19.59_AM.png" style="margin: 0;padding: 0;border-collapse: collapse;font-family: Arial;text-align: left;object-fit: cover;height: 100% !important;width: 100% !important;"></td>
+            <td style="margin: 0;padding: 0;border-collapse: collapse;font-family: Arial;text-align: center;align-content: center;align-items: center;width: 25%;object-fit: cover;height: 20% !important;"><img src="https://images.rbis-go.averydennison.com/EloquaImages/clients/AveryDennisonCorporation/%7Bf6ec1a95-1818-45bc-9554-09fa8c8049da%7D_Screenshot_2023-04-25_at_12.19.40_AM.png" style="margin: 0;padding: 0;border-collapse: collapse;font-family: Arial;text-align: left;object-fit: cover;height: 100% !important;width: 100% !important;"></td>
+            <td style="margin: 0;padding: 0;border-collapse: collapse;font-family: Arial;text-align: center;align-content: center;align-items: center;width: 25%;object-fit: cover;height: 20% !important;"><img src="https://images.rbis-go.averydennison.com/EloquaImages/clients/AveryDennisonCorporation/%7B09c0400c-48b5-4743-9073-65110b117d20%7D_Screenshot_2023-04-25_at_12.19.46_AM.png" style="margin: 0;padding: 0;border-collapse: collapse;font-family: Arial;text-align: left;object-fit: cover;height: 100% !important;width: 100% !important;"></td>
+            <!-- <td>2</td>
+            <td>3</td> -->
+        </tr>
+        <tr class="textInTable" style="margin: 0;padding: 0;border-collapse: collapse;font-family: Arial;text-align: left;">
+            <td style="margin: 0;padding: 1px;border-collapse: collapse;font-family: Arial;text-align: center;align-content: center;align-items: center;font-size: 14px;border: 1px solid black !important;"> <strong style="margin: 0;padding: 0;border-collapse: collapse;font-family: Arial;text-align: left;">深海的自然世界</strong> <br style="margin: 0;padding: 0;border-collapse: collapse;font-family: Arial;text-align: left;"> 
+                气泡状的纹理，网状的图案，以及半透明和技术性的表面处理
+                </td>
+            <td style="margin: 0;padding: 1px;border-collapse: collapse;font-family: Arial;text-align: center;align-content: center;align-items: center;font-size: 14px;border: 1px solid black !important;"><strong style="margin: 0;padding: 0;border-collapse: collapse;font-family: Arial;text-align: left;">探索海岸</strong> <br style="margin: 0;padding: 0;border-collapse: collapse;font-family: Arial;text-align: left;">
+                的自然世界 
+                航海黄、扭曲、分层和绳状结构
+                </td>
+            <td style="margin: 0;padding: 1px;border-collapse: collapse;font-family: Arial;text-align: center;align-content: center;align-items: center;font-size: 14px;border: 1px solid black !important;"><strong style="margin: 0;padding: 0;border-collapse: collapse;font-family: Arial;text-align: left;">科技表现</strong> <br style="margin: 0;padding: 0;border-collapse: collapse;font-family: Arial;text-align: left;"> 
+                科技、艺术和文化的和谐融合
+                </td>
+            <td style="margin: 0;padding: 1px;border-collapse: collapse;font-family: Arial;text-align: center;align-content: center;align-items: center;font-size: 14px;border: 1px solid black !important;"><strong style="margin: 0;padding: 0;border-collapse: collapse;font-family: Arial;text-align: left;">人情味</strong> <br style="margin: 0;padding: 0;border-collapse: collapse;font-family: Arial;text-align: left;"> 
+                具有超现实和有趣的图案
+                
+                </td>
+        </tr>
+        
+    </table>
+</div>

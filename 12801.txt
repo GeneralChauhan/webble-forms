@@ -1,0 +1,6 @@
+1280 
+font size 14px
+height of logo 100px
+
+1920 
+nothing changes

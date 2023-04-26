@@ -1,0 +1,41 @@
+                <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+                
+                    <div class="w-100" style="margin-left: auto;margin: 0;padding: 0;border-collapse: collapse;font-family: arial;text-align: center;margin-top: 1px;width: 100vw;">
+                        <div class="d-flex" style="margin-top: 0px;margin: 0;padding: 0;border-collapse: collapse;font-family: arial;text-align: center;display: flex;flex-direction: row;align-items: left;">
+                            <div class="divImg" style="margin: 0;padding: 0;border-collapse: collapse;font-family: arial;text-align: center;object-fit: contain;height: 170px !important;width: 170px !important;"><img src="https://images.rbis-go.averydennison.com/EloquaImages/clients/AveryDennisonCorporation/%7Bbc6139c8-13b7-491d-9bb0-97d6d58ff801%7D_Screenshot_2023-04-25_at_12.15.12_AM.png" style="margin: 0;padding: 0;border-collapse: collapse;font-family: arial;text-align: center;width: 100%;height: auto;aspect-ratio: 1 / 1;"></div>
+                            
+                            <div class="border firstBlock" style="margin: 0;padding: 0;border-collapse: collapse;font-family: arial;text-align: left;border: 1px solid black;border-bottom: 0px;width: 170px;height: 170px!important;border-top: 1px solid black !important;">
+                                <strong style="margin: 0;padding: 0;border-collapse: collapse;font-family: arial;text-align: center;">深海的自然世界</strong> <br style="margin: 0;padding: 0;border-collapse: collapse;font-family: arial;text-align: center;"> 
+                            气泡状的纹理，网状的图案，以及半透明和技术性的表面处理
+                            </div>
+                        </div>
+                        <div class="d-flex" style="margin: 0;padding: 0;border-collapse: collapse;font-family: arial;text-align: center;display: flex;flex-direction: row;align-items: left;margin-top: -38px;">
+                            <div class="divImg" style="margin: 0;padding: 0;border-collapse: collapse;font-family: arial;text-align: center;object-fit: contain;height: 170px !important;width: 170px !important;"><img src="https://images.rbis-go.averydennison.com/EloquaImages/clients/AveryDennisonCorporation/%7Bed901e73-7c2e-4eb5-99eb-50db2e72545d%7D_Screenshot_2023-04-25_at_12.19.59_AM.png" style="margin: 0;padding: 0;border-collapse: collapse;font-family: arial;text-align: center;width: 100%;height: auto;aspect-ratio: 1 / 1;"></div>
+                            
+                            <div class="border" style="margin: 0;padding: 0;border-collapse: collapse;font-family: arial;text-align: left;border: 1px solid black;border-bottom: 0px;width: 170px;height: 170px!important;">
+                                <strong style="margin: 0;padding: 0;border-collapse: collapse;font-family: arial;text-align: center;">探索海岸</strong> <br style="margin: 0;padding: 0;border-collapse: collapse;font-family: arial;text-align: center;">
+                            的自然世界 航海黄、扭曲、分层和绳状结构
+                                
+                            </div>
+                        </div>
+                        <div class="d-flex" style="margin: 0;padding: 0;border-collapse: collapse;font-family: arial;text-align: center;display: flex;flex-direction: row;align-items: left;margin-top: -38px;">
+                            <div class="divImg" style="margin: 0;padding: 0;border-collapse: collapse;font-family: arial;text-align: center;object-fit: contain;height: 170px !important;width: 170px !important;"><img src="https://images.rbis-go.averydennison.com/EloquaImages/clients/AveryDennisonCorporation/%7Bf6ec1a95-1818-45bc-9554-09fa8c8049da%7D_Screenshot_2023-04-25_at_12.19.40_AM.png" style="margin: 0;padding: 0;border-collapse: collapse;font-family: arial;text-align: center;width: 100%;height: auto;aspect-ratio: 1 / 1;"></div>
+                            
+                            <div class="border" style="margin: 0;padding: 0;border-collapse: collapse;font-family: arial;text-align: left;border: 1px solid black;border-bottom: 0px;width: 170px;height: 170px!important;">
+                                <strong style="margin: 0;padding: 0;border-collapse: collapse;font-family: arial;text-align: center;">科技表现</strong> <br style="margin: 0;padding: 0;border-collapse: collapse;font-family: arial;text-align: center;"> 
+                            科技、艺术和文化的和谐融合
+                            </div>
+                        </div>
+                        <div class="d-flex" style="margin: 0;padding: 0;border-collapse: collapse;font-family: arial;text-align: center;display: flex;flex-direction: row;align-items: left;margin-top: -38px;">
+                            <div class="divImg" style="margin: 0;padding: 0;border-collapse: collapse;font-family: arial;text-align: center;object-fit: contain;height: 170px !important;width: 170px !important;"><img src="https://images.rbis-go.averydennison.com/EloquaImages/clients/AveryDennisonCorporation/%7B09c0400c-48b5-4743-9073-65110b117d20%7D_Screenshot_2023-04-25_at_12.19.46_AM.png" style="margin: 0;padding: 0;border-collapse: collapse;font-family: arial;text-align: center;width: 100%;height: auto;aspect-ratio: 1 / 1;"></div>
+                            
+                            <div class="border lastBlock" style="margin: 0;padding: 0;border-collapse: collapse;font-family: arial;text-align: left;border: 1px solid black;border-bottom: 1px solid black !important;width: 170px;height: 170px!important;">
+                                <strong style="margin: 0;padding: 0;border-collapse: collapse;font-family: arial;text-align: center;">人情味</strong> <br style="margin: 0;padding: 0;border-collapse: collapse;font-family: arial;text-align: center;"> 
+                            具有超现实和有趣的图案
+                            
+                            </div>
+                        </div>
+                    
+            
+                    </div>
+    
