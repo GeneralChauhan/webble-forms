@@ -1677,9 +1677,10 @@
   }
 </style>
   <form
+  class="elq-form"
     class="contactForm elq-form "
-    id="walmartExpansion-entry"
-    action="https://tracking.averydennison.com/e/f2"
+    id="form104"
+    action="https://s833068.t.eloqua.com/e/f2"
     method="post"
     name="walmartExpansion-entry"
   >
@@ -2138,6 +2139,27 @@
     >
       GET STARTED
     </button> -->
+    <!-- <div id="elq-FormLastRow" class="row">
+      <div class="grid-layout-col">
+        <div class="layout-col col-sm-12 col-xs-12">
+          <div class="elq-field-style form-element-layout row">
+            <div style="text-align:left;" class="col-sm-12 col-xs-12">
+              <label class="elq-label">address1
+              </label>
+            </div>
+            <div class="col-sm-12 col-xs-12">
+              <div class="row">
+                <div class="col-xs-12">
+                  <div class="field-control-wrapper">
+                    <input type="text" value="" tabindex="-1" autocomplete="off" style="width:100%;" class="elq-item-input" name="address1" id="fe3746">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
     <div id="elq-FormLastRow" class="row">
       <div class="grid-layout-col">
         <div class="layout-col col-sm-12 col-xs-12">
@@ -2184,9 +2206,352 @@
         </div>
       </div>
     </div>
+   
   </div>
   </form>
 </div>
+<script type="text/javascript" src="https://img03.en25.com/i/livevalidation_standalone.compressed.js">
+</script>
+<script>function handleFormSubmit(ele) {
+    var submitButton = ele.querySelector('input[type=submit]');
+    var spinner = document.createElement('span');
+    spinner.setAttribute('class', 'loader');
+    submitButton.setAttribute('disabled', true);
+    submitButton.style.cursor = 'wait';
+    submitButton.parentNode.appendChild(spinner);
+    return true;
+  }
+  function resetSubmitButton(e){
+    var submitButtons = e.target.form.getElementsByClassName('submit-button');
+    for(var i=0;i<submitButtons.length;i++){
+      submitButtons[i].disabled = false;
+    }
+  }
+  function addChangeHandler(elements){
+    for(var i=0; i<elements.length; i++){
+      elements[i].addEventListener('change', resetSubmitButton);
+    }
+  }
+  var form = document.getElementById('form104');
+  addChangeHandler(form.getElementsByTagName('input'));
+  addChangeHandler(form.getElementsByTagName('select'));
+  addChangeHandler(form.getElementsByTagName('textarea'));
+  var nodes = document.querySelectorAll('#form104 input[data-subscription]');
+  if (nodes) {
+    for (var i = 0, len = nodes.length; i < len; i++) {
+      var status = nodes[i].dataset ? nodes[i].dataset.subscription : nodes[i].getAttribute('data-subscription');
+      if(status ==='true') {
+        nodes[i].checked = true;
+      }
+    }
+  };
+  var nodes = document.querySelectorAll('#form104 select[data-value]');
+  if (nodes) {
+    for (var i = 0; i < nodes.length; i++) {
+      var node = nodes[i];
+      var selectedValue = node.dataset ? node.dataset.value : node.getAttribute('data-value');
+      if (selectedValue) {
+        for (var j = 0; j < node.options.length; j++) {
+          if(node.options[j].value === selectedValue) {
+            node.options[j].selected = 'selected';
+            break;
+          }
+        }
+      }
+    }
+  }
+  this.getParentElement = function(list) {
+    return list[list.length-1].parentElement};
+  var dom1 = document.querySelector('#form104 #fe1207');
+  var fe1207 = new LiveValidation(dom1, {
+    validMessage: "", onlyOnBlur: false, wait: 300, isPhoneField: false}
+                                 );
+  fe1207.add(Validate.Custom, {
+    against: function(value) {
+      return !value.match(/(telnet|ftp|https?):\/\/(?:[a-z0-9][a-z0-9-]{0,61}[a-z0-9]\.|[a-z0-9]\.)+[a-z]{2,63}/i);
+    }
+    , failureMessage: "Value must not contain any URL's"}
+            );
+  fe1207.add(Validate.Custom, {
+    against: function(value) {
+      return !value.match(/(<([^>]+)>)/ig);
+    }
+    , failureMessage: "Value must not contain any HTML"}
+            );
+  fe1207.add(Validate.Length, {
+    tooShortMessage:"Invalid length for field value", tooLongMessage: "Invalid length for field value",  minimum: 0, maximum: 35}
+            );
+  fe1207.add(Validate.Presence, {
+    failureMessage:"This field is required"}
+            );
+  var dom2 = document.querySelector('#form104 #fe1208');
+  var fe1208 = new LiveValidation(dom2, {
+    validMessage: "", onlyOnBlur: false, wait: 300, isPhoneField: false}
+                                 );
+  fe1208.add(Validate.Custom, {
+    against: function(value) {
+      return !value.match(/(telnet|ftp|https?):\/\/(?:[a-z0-9][a-z0-9-]{0,61}[a-z0-9]\.|[a-z0-9]\.)+[a-z]{2,63}/i);
+    }
+    , failureMessage: "Value must not contain any URL's"}
+            );
+  fe1208.add(Validate.Custom, {
+    against: function(value) {
+      return !value.match(/(<([^>]+)>)/ig);
+    }
+    , failureMessage: "Value must not contain any HTML"}
+            );
+  fe1208.add(Validate.Length, {
+    tooShortMessage:"Invalid length for field value", tooLongMessage: "Invalid length for field value",  minimum: 0, maximum: 35}
+            );
+  fe1208.add(Validate.Presence, {
+    failureMessage:"This field is required"}
+            );
+  var dom3 = document.querySelector('#form104 #fe1209');
+  var fe1209 = new LiveValidation(dom3, {
+    validMessage: "", onlyOnBlur: false, wait: 300, isPhoneField: false}
+                                 );
+  fe1209.add(Validate.Format, {
+    pattern: /(^[A-Z0-9!#\$%&'\*\+\-\/=\?\^_`\{\|\}~][A-Z0-9!#\$%&'\*\+\-\/=\?\^_`\{\|\}~\.]{0,62}@(([A-Z0-9](?:[A-Z0-9\-]{0,61}[A-Z0-9])?)(\.[A-Z0-9](?:[A-Z0-9\-]{0,61}[A-Z0-9])?)+)$)/i, failureMessage: "A valid email address is required"}
+            );
+  fe1209.add(Validate.Format, {
+    pattern: /\.\.|\.@/i, failureMessage: "A valid email address is required", negate: "true"}
+            );
+  fe1209.add(Validate.Presence, {
+    failureMessage:"This field is required"}
+            );
+  var dom4 = document.querySelector('#form104 #fe1210');
+  var fe1210 = new LiveValidation(dom4, {
+    validMessage: "", onlyOnBlur: false, wait: 300, isPhoneField: false}
+                                 );
+  fe1210.add(Validate.Presence, {
+    failureMessage:"This field is required"}
+            );
+  var dom5 = document.querySelector('#form104 #fe1211');
+  var fe1211 = new LiveValidation(dom5, {
+    validMessage: "", onlyOnBlur: false, wait: 300, isPhoneField: false}
+                                 );
+  fe1211.add(Validate.Custom, {
+    against: function(value) {
+      return !value.match(/(telnet|ftp|https?):\/\/(?:[a-z0-9][a-z0-9-]{0,61}[a-z0-9]\.|[a-z0-9]\.)+[a-z]{2,63}/i);
+    }
+    , failureMessage: "Value must not contain any URL's"}
+            );
+  fe1211.add(Validate.Custom, {
+    against: function(value) {
+      return !value.match(/(<([^>]+)>)/ig);
+    }
+    , failureMessage: "Value must not contain any HTML"}
+            );
+  fe1211.add(Validate.Length, {
+    tooShortMessage:"Invalid length for field value", tooLongMessage: "Invalid length for field value",  minimum: 0, maximum: 35}
+            );
+  fe1211.add(Validate.Presence, {
+    failureMessage:"This field is required"}
+            );
+  var dom7 = document.querySelector('#form104 #fe1212');
+  var fe1212 = new LiveValidation(dom7, {
+    validMessage: "", onlyOnBlur: false, wait: 300, isPhoneField: false}
+                                 );
+  fe1212.add(Validate.Custom, {
+    against: function(value) {
+      return !value.match(/(telnet|ftp|https?):\/\/(?:[a-z0-9][a-z0-9-]{0,61}[a-z0-9]\.|[a-z0-9]\.)+[a-z]{2,63}/i);
+    }
+    , failureMessage: "Value must not contain any URL's"}
+            );
+  fe1212.add(Validate.Custom, {
+    against: function(value) {
+      return !value.match(/(<([^>]+)>)/ig);
+    }
+    , failureMessage: "Value must not contain any HTML"}
+            );
+  fe1212.add(Validate.Length, {
+    tooShortMessage:"Invalid length for field value", tooLongMessage: "Invalid length for field value",  minimum: 0, maximum: 35}
+            );
+  fe1212.add(Validate.Presence, {
+    failureMessage:"This field is required"}
+            );
+  var dom8 = document.querySelector('#form104 #fe1213');
+  var fe1213 = new LiveValidation(dom8, {
+    validMessage: "", onlyOnBlur: false, wait: 300, isPhoneField: false}
+                                 );
+  fe1213.add(Validate.Custom, {
+    against: function(value) {
+      return !value.match(/(telnet|ftp|https?):\/\/(?:[a-z0-9][a-z0-9-]{0,61}[a-z0-9]\.|[a-z0-9]\.)+[a-z]{2,63}/i);
+    }
+    , failureMessage: "Value must not contain any URL's"}
+            );
+  fe1213.add(Validate.Custom, {
+    against: function(value) {
+      return !value.match(/(<([^>]+)>)/ig);
+    }
+    , failureMessage: "Value must not contain any HTML"}
+            );
+  fe1213.add(Validate.Length, {
+    tooShortMessage:"Invalid length for field value", tooLongMessage: "Invalid length for field value",  minimum: 0, maximum: 35}
+            );
+  fe1213.add(Validate.Presence, {
+    failureMessage:"This field is required"}
+            );
+  var dom9 = document.querySelector('#form104 #fe3746');
+  var fe3746 = new LiveValidation(dom9, {
+    validMessage: "", onlyOnBlur: false, wait: 300, isPhoneField: false}
+                                 );
+  fe3746.add(Validate.Presence, {
+    failureMessage:"This field is required"}
+            );
+  var dom10 = document.querySelector('#form104 #fe1214');
+  var fe1214 = new LiveValidation(dom10, {
+    validMessage: "", onlyOnBlur: false, wait: 300, isPhoneField: false}
+                                 );
+  fe1214.add(Validate.Custom, {
+    against: function(value) {
+      return !value.match(/(telnet|ftp|https?):\/\/(?:[a-z0-9][a-z0-9-]{0,61}[a-z0-9]\.|[a-z0-9]\.)+[a-z]{2,63}/i);
+    }
+    , failureMessage: "Value must not contain any URL's"}
+            );
+  fe1214.add(Validate.Custom, {
+    against: function(value) {
+      return !value.match(/(<([^>]+)>)/ig);
+    }
+    , failureMessage: "Value must not contain any HTML"}
+            );
+  fe1214.add(Validate.Length, {
+    tooShortMessage:"Invalid length for field value", tooLongMessage: "Invalid length for field value",  minimum: 0, maximum: 35}
+            );
+  fe1214.add(Validate.Presence, {
+    failureMessage:"This field is required"}
+            );
+  var dom11 = document.querySelector('#form104 #fe1225');
+  var fe1225 = new LiveValidation(dom11, {
+    validMessage: "", onlyOnBlur: false, wait: 300, isPhoneField: false}
+                                 );
+  fe1225.add(Validate.Custom, {
+    against: function(value) {
+      return !value.match(/(telnet|ftp|https?):\/\/(?:[a-z0-9][a-z0-9-]{0,61}[a-z0-9]\.|[a-z0-9]\.)+[a-z]{2,63}/i);
+    }
+    , failureMessage: "Value must not contain any URL's"}
+            );
+  fe1225.add(Validate.Custom, {
+    against: function(value) {
+      return !value.match(/(<([^>]+)>)/ig);
+    }
+    , failureMessage: "Value must not contain any HTML"}
+            );
+  fe1225.add(Validate.Length, {
+    tooShortMessage:"Invalid length for field value", tooLongMessage: "Invalid length for field value",  minimum: 0, maximum: 35}
+            );
+  var dom12 = document.querySelector('#form104 #fe1908');
+  var fe1908 = new LiveValidation(dom12, {
+    validMessage: "", onlyOnBlur: false, wait: 300, isPhoneField: false}
+                                 );
+  fe1908.add(Validate.Custom, {
+    against: function(value) {
+      return !value.match(/(telnet|ftp|https?):\/\/(?:[a-z0-9][a-z0-9-]{0,61}[a-z0-9]\.|[a-z0-9]\.)+[a-z]{2,63}/i);
+    }
+    , failureMessage: "Value must not contain any URL's"}
+            );
+  fe1908.add(Validate.Custom, {
+    against: function(value) {
+      return !value.match(/(<([^>]+)>)/ig);
+    }
+    , failureMessage: "Value must not contain any HTML"}
+            );
+  fe1908.add(Validate.Length, {
+    tooShortMessage:"Invalid length for field value", tooLongMessage: "Invalid length for field value",  minimum: 0, maximum: 35}
+            );
+  var dom13 = document.querySelector('#form104 #fe1909');
+  var fe1909 = new LiveValidation(dom13, {
+    validMessage: "", onlyOnBlur: false, wait: 300, isPhoneField: false}
+                                 );
+  fe1909.add(Validate.Custom, {
+    against: function(value) {
+      return !value.match(/(telnet|ftp|https?):\/\/(?:[a-z0-9][a-z0-9-]{0,61}[a-z0-9]\.|[a-z0-9]\.)+[a-z]{2,63}/i);
+    }
+    , failureMessage: "Value must not contain any URL's"}
+            );
+  fe1909.add(Validate.Custom, {
+    against: function(value) {
+      return !value.match(/(<([^>]+)>)/ig);
+    }
+    , failureMessage: "Value must not contain any HTML"}
+            );
+  fe1909.add(Validate.Length, {
+    tooShortMessage:"Invalid length for field value", tooLongMessage: "Invalid length for field value",  minimum: 0, maximum: 35}
+            );
+  var dom14 = document.querySelector('#form104 #fe1226');
+  var fe1226 = new LiveValidation(dom14, {
+    validMessage: "", onlyOnBlur: false, wait: 300, isPhoneField: false}
+                                 );
+  fe1226.add(Validate.Custom, {
+    against: function(value) {
+      return !value.match(/(telnet|ftp|https?):\/\/(?:[a-z0-9][a-z0-9-]{0,61}[a-z0-9]\.|[a-z0-9]\.)+[a-z]{2,63}/i);
+    }
+    , failureMessage: "Value must not contain any URL's"}
+            );
+  fe1226.add(Validate.Custom, {
+    against: function(value) {
+      return !value.match(/(<([^>]+)>)/ig);
+    }
+    , failureMessage: "Value must not contain any HTML"}
+            );
+  fe1226.add(Validate.Length, {
+    tooShortMessage:"Invalid length for field value", tooLongMessage: "Invalid length for field value",  minimum: 0, maximum: 35}
+            );
+  var dom15 = document.querySelector('#form104 #fe1227');
+  var fe1227 = new LiveValidation(dom15, {
+    validMessage: "", onlyOnBlur: false, wait: 300, isPhoneField: false}
+                                 );
+  fe1227.add(Validate.Custom, {
+    against: function(value) {
+      return !value.match(/(telnet|ftp|https?):\/\/(?:[a-z0-9][a-z0-9-]{0,61}[a-z0-9]\.|[a-z0-9]\.)+[a-z]{2,63}/i);
+    }
+    , failureMessage: "Value must not contain any URL's"}
+            );
+  fe1227.add(Validate.Custom, {
+    against: function(value) {
+      return !value.match(/(<([^>]+)>)/ig);
+    }
+    , failureMessage: "Value must not contain any HTML"}
+            );
+  fe1227.add(Validate.Length, {
+    tooShortMessage:"Invalid length for field value", tooLongMessage: "Invalid length for field value",  minimum: 0, maximum: 35}
+            );
+  var dom16 = document.querySelector('#form104 #fe3715');
+  var fe3715 = new LiveValidation(dom16, {
+    validMessage: "", onlyOnBlur: false, wait: 300, isPhoneField: false}
+                                 );
+  fe3715.add(Validate.Custom, {
+    against: function(value) {
+      return !value.match(/(telnet|ftp|https?):\/\/(?:[a-z0-9][a-z0-9-]{0,61}[a-z0-9]\.|[a-z0-9]\.)+[a-z]{2,63}/i);
+    }
+    , failureMessage: "Value must not contain any URL's"}
+            );
+  fe3715.add(Validate.Custom, {
+    against: function(value) {
+      return !value.match(/(<([^>]+)>)/ig);
+    }
+    , failureMessage: "Value must not contain any HTML"}
+            );
+  fe3715.add(Validate.Presence, {
+    failureMessage:"This field is required"}
+            );
+  var dom17 = document.querySelector('#form104 #fe1243');
+  var fe1243 = new LiveValidation(dom17, {
+    validMessage: "", onlyOnBlur: false, wait: 300, isPhoneField: false}
+                                 );
+  fe1243.add(Validate.Custom, {
+    against: function(value) {
+      return !value.match(/(telnet|ftp|https?):\/\/(?:[a-z0-9][a-z0-9-]{0,61}[a-z0-9]\.|[a-z0-9]\.)+[a-z]{2,63}/i);
+    }
+    , failureMessage: "Value must not contain any URL's"}
+            );
+  fe1243.add(Validate.Custom, {
+    against: function(value) {
+      return !value.match(/(<([^>]+)>)/ig);
+    }
+    , failureMessage: "Value must not contain any HTML"}
+            );
+</script>
 <script>document.onload = handleDocumentLoad('form104','833068');
   function handleDocumentLoad(b,a){
     window.getElqFormSubmissionToken(b,a);
