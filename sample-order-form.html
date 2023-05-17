@@ -2222,7 +2222,7 @@
                       <div class="col-xs-12">
                         <div class="field-control-wrapper">
                           <select class="elq-item-select" id="fe1363" name="RFID_Item_Code" style="width:100%;" required data-value="">
-                            <option selected disabled value="">   Select RFID Item Code (use pictures above as reference)*
+                            <option selected disabled value="">   Select RFID Item Code (Reference images to the right)*
                             </option>
                             <option value="W22-TAG-RFID-B-001">W22-TAG-RFID-B-001
                             </option>
@@ -2405,8 +2405,9 @@
                     <div class="row">
                       <div class="col-xs-12">
                         <div style="text-align:left;">
-                          <h3 class="elq-heading elq-item-input"><strong>Ship To Information:</strong> 
+                          <h3 class="elq-heading elq-item-input" style="margin-bottom: 5px;"><strong>Ship To Information:</strong> 
                           </h3>
+                          
                         </div>
                       </div>
                     </div>
@@ -2429,7 +2430,7 @@
                     <div class="row">
                       <div class="col-xs-12">
                         <div class="field-control-wrapper">
-                          <input type="text" class="elq-item-input" name="attnTo" id="fe1339" value="" placeholder="Shipping Contact Name:" style="width:100%;">
+                          <input type="text" class="elq-item-input" name="attnTo" id="fe1339" value="" required placeholder="Shipping Contact Name*" style="width:100%;">
                         </div>
                       </div>
                     </div>
@@ -3091,7 +3092,7 @@
                       <div class="col-xs-12">
                         <div class="field-control-wrapper">
                           <select class="elq-item-select" id="fe1427" name="shipService" style="width:100%;" required data-value="">
-                            <option value="">How would you like your these items shipped? *
+                            <option value="">How would you like your these items shipped?*
                             </option>
                             <option value="UPS">UPS
                             </option>
@@ -3164,16 +3165,17 @@
               padding:  15px 15px 15px 15px;          
               ">
                 <div id="formElement24" class="elq-field-style form-element-layout row">
-                  <div style="text-align:left;" class="col-sm-12 col-xs-12" >
+                  <div style="text-align:left; margin-bottom: 10px;" class="col-sm-12 col-xs-12" >
                     <label class="elq-label " for="fe1430">Would you like your samples expedited? 
-                      <span class="elq-required">*
+                      <span class="elq-required" style="color: black !important">*
                       </span>
                     </label>
                   </div>
+                  <br/>
                   <div class="col-sm-12 col-xs-12">
-                    <div class="row">
+                    <div class="row" style=" margin-bottom: 5px;" >
                       <div class="col-xs-12">
-                        <div class="field-control-wrapper" id="fe1430">
+                        <div class="field-control-wrapper"  id="fe1430">
                           <div class="list-order two-column">
                             <input type="radio" id="radio-Yes_ztjwupga" required value="Yes" name="expediteSamples">
                             <label class="checkbox-aligned elq-item-label" for="radio-Yes_ztjwupga" >Yes
