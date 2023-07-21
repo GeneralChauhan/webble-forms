@@ -2611,7 +2611,19 @@ border-radius:30px">
                     setFormFieldValue(elqForm, "country", "CountryName");
                     setFormFieldValue(elqForm, "jobFunctionRole1", "Job_Function_Role");
                    
- 
+                }
+                _elqQ.push(['elqDataLookup', escape('d11e7f17918a44a7b59fcaf00c3385a6'), '<C_EmailAddress>' + GetElqContentPersonalizationValue("Email_Address") + '</C_EmailAddress>']);
+            }
+            FirstLookup = false;
+        }
+        else {
+            setFormFieldValue(elqForm, "jobFunctionRole1", "Job_Function_Role1");
+        }
+    }
+
+
+    _elqQ.push(['elqDataLookup', escape('1d25470ff99243ae889a6acc1e408377'), '']);
+
 
 </script>
 <script>
