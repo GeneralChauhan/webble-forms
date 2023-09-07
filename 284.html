@@ -1,5 +1,4 @@
-<div style="background:#FAFAFA; padding: 5px !important;
-border-radius:30px">
+
 <style type="text/css">
     #form284 #formElement * {
       padding-bottom: 0px !important;
@@ -7,8 +6,20 @@ border-radius:30px">
     #form284 {
       padding: 30px !important;
     }
-    option{
-      height: 47px !important;
+    ::-webkit-scrollbar {
+      width: 5px;
+    }
+  
+    /* Track */
+    ::-webkit-scrollbar-track {
+      /* box-shadow: inset 0 0 5px grey; */
+      border-radius: 10px;
+    }
+  
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+      background: grey;
+      border-radius: 5px;
     }
     @media screen and (min-width: 700px) {
       #aa {
@@ -28,7 +39,16 @@ border-radius:30px">
     h4 {
       font-size: 14px !important;
     }
-  
+    h3
+    {
+    display: block !important;
+    font-size: 1.17em !important;
+    margin-block-start: 1em !important;
+    margin-block-end: 1em !important;
+    margin-inline-start: 0px !important;
+    margin-inline-end: 0px !important;
+    font-weight: bold !important;
+    }
     .elq-heading {
       font-size: 14px;
     }
@@ -68,7 +88,7 @@ border-radius:30px">
     }
     .elq-form .container {
       /* padding-right: 15px;
-            padding-left: 15px; */
+          padding-left: 15px; */
       margin-right: auto;
       margin-left: auto;
     }
@@ -108,6 +128,7 @@ border-radius:30px">
       -webkit-appearance: auto;
       -webkit-border-radius: 0px;
       color: #000 !important;
+      height: auto !important;
       font-size: 14px !important;
     }
   
@@ -127,14 +148,15 @@ border-radius:30px">
     .elq-form .checkboxes {
       border: 1px solid rgb(131, 131, 131);
       border-bottom: none;
-      padding: 15px 10px 15px 14px !important;
+      padding: 10px 10px 10px 18px !important;
       font-family: sans-serif !important;
+      line-height: 14px !important;
     }
   
     /* ::placeholder,
-          .placeholder {
-            color: #898989 !important;
-          } */
+        .placeholder {
+          color: #898989 !important;
+        } */
   
     .elq-form input,
     .elq-form select {
@@ -146,12 +168,6 @@ border-radius:30px">
     .elq-form .checkboxes {
       background-color: transparent;
     }
-    .randomClass{
-          border: 1px solid rgb(131, 131, 131);
-          border-bottom: none;
-          padding: 15px 10px 15px 18px !important;
-          font-family: sans-serif !important;
-        }
   
     ::placeholder {
       /* Chrome, Firefox, Opera, Safari 10.1+ */
@@ -183,7 +199,7 @@ border-radius:30px">
   
     .elq-form input {
       /* border: 1px solid #000;
-            padding: 5px 10px; */
+          padding: 5px 10px; */
     }
   
     .elq-form .elq-required {
@@ -246,9 +262,6 @@ border-radius:30px">
       min-height: 48px;
       max-height: 360px;
       box-sizing: border-box;
-    }
-    textarea{
-        font-size: 14px !important;
     }
   
     .elq-form .elq-item-input,
@@ -443,7 +456,7 @@ border-radius:30px">
   
     .elq-form .container {
       /* padding-right: 15px;
-            padding-left: 15px; */
+          padding-left: 15px; */
       margin-right: auto;
       margin-left: auto;
     }
@@ -478,7 +491,7 @@ border-radius:30px">
   
     .elq-form .container-fluid {
       /* padding-right: 15px;
-            padding-left: 15px; */
+          padding-left: 15px; */
       margin-right: auto;
       margin-left: auto;
     }
@@ -495,7 +508,7 @@ border-radius:30px">
   
     .elq-form .row {
       /* margin-right: -15px;
-            margin-left: -15px */
+          margin-left: -15px */
     }
   
     .elq-form .row:after,
@@ -569,7 +582,7 @@ border-radius:30px">
       position: relative;
       min-height: 1px;
       /* padding-right: 15px;
-            padding-left: 15px */
+          padding-left: 15px */
     }
   
     .elq-form .col-xs-1,
@@ -1308,7 +1321,7 @@ border-radius:30px">
       /*imp*/
       .elq-form input {
         /* border: 1px solid #000;
-              padding: 5px 10px; */
+            padding: 5px 10px; */
       }
   
       .elq-form .col-lg-pull-2 {
@@ -1483,7 +1496,7 @@ border-radius:30px">
   
     .LV_invalid {
       color: #c00;
-      font-size: 18x;
+      font-size: 14px;
     }
   
     .submit-button-style {
@@ -1556,7 +1569,7 @@ border-radius:30px">
   
     .form-top-heading .logo-wrap {
       width: 100%;
-      max-width: 130px;
+      max-width: 100px;
     }
   
     .logo-wrap img {
@@ -1572,46 +1585,21 @@ border-radius:30px">
       vertical-align: baseline;
     }
   </style>
-  <form method="post" name="DSG-ContactUs" action="https://s833068.t.eloqua.com/e/f2" onsubmit="return handleFormSubmit(this)" id="form284" class="elq-form">
-    <input value="DSG-ContactUs" type="hidden" name="elqFormName">
-    <input value="833068" type="hidden" name="elqSiteId">
-    <input name="elqCampaignId" type="hidden">
-    <div class="layout container-fluid">
-        <div class="form-top-heading">
-            <div class="logo-wrap">
-              <img
-                src="https://images.rbis-go.averydennison.com/EloquaImages/clients/AveryDennisonCorporation/%7Bf9327b68-3505-4c20-a1ac-88af96b000e5%7D_Avery-logo-black.png"
-                alt="form-logo"
-              />
-            </div>
-          </div>
-      <div class="row">
-        <div class="grid-layout-col">
-          <div class="layout-col col-sm-6 col-xs-12">
-            <div id="formElement0" class="elq-field-style form-element-layout row">
-              
-              <div class="col-sm-12 col-xs-12">
-                <div class="row">
-                  <div class="col-xs-12">
-                    <div class="field-control-wrapper">
-                      <input type="text" class="elq-item-input" name="firstName" id="fe4510" value="" placeholder="First Name*" required style="width:100%;">
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="grid-layout-col">
-          <div class="layout-col col-sm-6 col-xs-12">
-            <div id="formElement1" class="elq-field-style form-element-layout row">
-              
-              <div class="col-sm-12 col-xs-12">
-                <div class="row">
-                  <div class="col-xs-12">
-                    <div class="field-control-wrapper">
-                      <input type="text" class="elq-item-input" name="lastName" id="fe4511" value="" placeholder="Last Name*" required style="width:100%;">
-                    </div>
+<form method="post" name="DSG-ContactUs" action="https://s833068.t.eloqua.com/e/f2" onsubmit="return handleFormSubmit(this)" id="form284" class="elq-form">
+  <input value="DSG-ContactUs" type="hidden" name="elqFormName">
+  <input value="833068" type="hidden" name="elqSiteId">
+  <input name="elqCampaignId" type="hidden">
+  <div class="layout container-fluid">
+    <div class="row">
+      <div class="grid-layout-col">
+        <div class="layout-col col-sm-6 col-xs-12">
+          <div id="formElement0" class="elq-field-style form-element-layout row">
+            
+            <div class="col-sm-12 col-xs-12">
+              <div class="row">
+                <div class="col-xs-12">
+                  <div class="field-control-wrapper">
+                    <input type="text" class="elq-item-input" name="firstName" id="fe4510" placeholder="First Name*" required value="" style="width:100%;">
                   </div>
                 </div>
               </div>
@@ -1619,17 +1607,15 @@ border-radius:30px">
           </div>
         </div>
       </div>
-      <div class="row">
-        <div class="grid-layout-col">
-          <div class="layout-col col-sm-12 col-xs-12">
-            <div id="formElement2" class="elq-field-style form-element-layout row">
-              
-              <div class="col-sm-12 col-xs-12">
-                <div class="row">
-                  <div class="col-xs-12">
-                    <div class="field-control-wrapper">
-                      <input type="email" class="elq-item-input" name="emailAddress" id="fe4512" value="" placeholder="Email Address*" required style="width:100%;">
-                    </div>
+      <div class="grid-layout-col">
+        <div class="layout-col col-sm-6 col-xs-12">
+          <div id="formElement1" class="elq-field-style form-element-layout row">
+            
+            <div class="col-sm-12 col-xs-12">
+              <div class="row">
+                <div class="col-xs-12">
+                  <div class="field-control-wrapper">
+                    <input type="text" class="elq-item-input" name="lastName" id="fe4511" placeholder="Last Name*" value="" required style="width:100%;">
                   </div>
                 </div>
               </div>
@@ -1637,351 +1623,914 @@ border-radius:30px">
           </div>
         </div>
       </div>
-      <div class="row">
-        <div class="grid-layout-col">
-          <div class="layout-col col-sm-12 col-xs-12">
-            <div id="formElement3" class="elq-field-style form-element-layout row">
-              
-              <div class="col-sm-12 col-xs-12">
-                <div class="row">
-                  <div class="col-xs-12">
-                    <div class="field-control-wrapper">
-                      <input type="text" class="elq-item-input" name="busPhone" id="fe4513" value="" placeholder="Business Phone*" required style="width:100%;">
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="grid-layout-col">
-          <div class="layout-col col-sm-12 col-xs-12">
-            <div id="formElement4" class="elq-field-style form-element-layout row">
-              
-              <div class="col-sm-12 col-xs-12">
-                <div class="row">
-                  <div class="col-xs-12">
-                    <div class="field-control-wrapper">
-                      <input type="text" class="elq-item-input" name="company" id="fe4514" value="" placeholder="Company*" required style="width:100%;">
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="grid-layout-col">
-          <div class="layout-col col-sm-12 col-xs-12">
-            <div id="formElement5" class="elq-field-style form-element-layout row">
-              
-              <div class="col-sm-12 col-xs-12">
-                <div class="row">
-                  <div class="col-xs-12">
-                    <div class="field-control-wrapper lastInput">
-                      <input type="text" class="elq-item-input" name="comments" id="fe4515" value="" placeholder="Comments" style="width:100%;">
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="grid-layout-col">
-          <div class="layout-col col-sm-12 col-xs-12">
-            <div id="formElement6" class="elq-field-style form-element-layout row">
-              <div class="col-sm-12 col-xs-12">
-                <div class="row">
-                  <div class="col-xs-12">
-                    <div style="text-align:left;">
-                      <h4 class="elq-heading form-element-form-text">By submitting I acknowledge that the personal data provided above will be processed in accordance with Avery Dennison <a style="text-decoration: underline !important;" href="https://www.averydennison.com/en/home/legal-and-privacy-notices.html">Privacy Notice</a>
-                      </h4>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="grid-layout-col">
-          <div class="layout-col col-sm-12 col-xs-12">
-            <div id="formElement7" class="elq-field-style form-element-layout row">
-              <div class="col-sm-12 col-xs-12">
-                <div class="row">
-                  <div class="col-xs-12">
-                    <div>
-                      <input type="Submit" class="submit-button-style " value="SUBMIT" id="fe4521">
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <input type="hidden" name="Campaign_DSG" id="fe4516" value="1">
-      <input type="hidden" name="systemID" id="fe4517" value="WEB">
-      <input type="hidden" name="Language" id="fe4518" value="">
-      <input type="hidden" name="SystemSource" id="fe4519" value="DSG-RFID-Campaign">
-      <input type="hidden" name="LeadSourceMostRecent" id="fe4520" value="DSG-ContactUs-Form">
     </div>
-  </form>
-  <script type="text/javascript" src="https://img03.en25.com/i/livevalidation_standalone.compressed.js">
-  </script>
-  <script>function handleFormSubmit(ele) {
-      var submitButton = ele.querySelector('input[type=submit]');
-      var spinner = document.createElement('span');
-      spinner.setAttribute('class', 'loader');
-      submitButton.setAttribute('disabled', true);
-      submitButton.style.cursor = 'wait';
-      submitButton.parentNode.appendChild(spinner);
-      return true;
+    <div class="row">
+      <div class="grid-layout-col">
+        <div class="layout-col col-sm-12 col-xs-12">
+          <div id="formElement2" class="elq-field-style form-element-layout row">
+            
+            <div class="col-sm-12 col-xs-12">
+              <div class="row">
+                <div class="col-xs-12">
+                  <div class="field-control-wrapper">
+                    <input type="email" class="elq-item-input" name="emailAddress" id="fe4512" placeholder="Email Address*" required value="" style="width:100%;">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="grid-layout-col">
+        <div class="layout-col col-sm-12 col-xs-12">
+          <div id="formElement3" class="elq-field-style form-element-layout row">
+            
+            <div class="col-sm-12 col-xs-12">
+              <div class="row">
+                <div class="col-xs-12">
+                  <div class="field-control-wrapper">
+                    <input type="text" class="elq-item-input" name="busPhone" id="fe4513" placeholder="Business Phone*" required value="" style="width:100%;">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="grid-layout-col">
+        <div class="layout-col col-sm-12 col-xs-12">
+          <div id="formElement4" class="elq-field-style form-element-layout row">
+            
+            <div class="col-sm-12 col-xs-12">
+              <div class="row">
+                <div class="col-xs-12">
+                  <div class="field-control-wrapper">
+                    <input type="text" class="elq-item-input" name="company" id="fe4514" placeholder="Company*" required value="" style="width:100%;">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="grid-layout-col">
+        <div class="layout-col col-sm-12 col-xs-12">
+          <div id="formElement5" class="elq-field-style form-element-layout row">
+            
+            <div class="col-sm-12 col-xs-12">
+              <div class="row">
+                <div class="col-xs-12">
+                  <div class="field-control-wrapper">
+                    <select class="elq-item-select" id="fe4616" name="country" style="width:100%;" required data-value="~~eloqua..type--emailfield..syntax--Country~~">
+                      <option selected disabled value="">Country*
+                      </option>
+                      <option value="United States">United States
+                      </option>
+                      <option value="United Kingdom">United Kingdom
+                      </option>
+                      <option value="Canada">Canada
+                      </option>
+                      <option value="India">India
+                      </option>
+                      <option value="Netherlands">Netherlands
+                      </option>
+                      <option value="Australia">Australia
+                      </option>
+                      <option value="South Africa">South Africa
+                      </option>
+                      <option value="France">France
+                      </option>
+                      <option value="Germany">Germany
+                      </option>
+                      <option value="Singapore">Singapore
+                      </option>
+                      <option value="Sweden">Sweden
+                      </option>
+                      <option value="Brazil">Brazil
+                      </option>
+                      <option value="">--------------
+                      </option>
+                      <option value="Afghanistan">Afghanistan
+                      </option>
+                      <option value="Åland Islands">Åland Islands
+                      </option>
+                      <option value="Albania">Albania
+                      </option>
+                      <option value="Algeria">Algeria
+                      </option>
+                      <option value="American Samoa">American Samoa
+                      </option>
+                      <option value="Andorra">Andorra
+                      </option>
+                      <option value="Angola">Angola
+                      </option>
+                      <option value="Anguilla">Anguilla
+                      </option>
+                      <option value="Antarctica">Antarctica
+                      </option>
+                      <option value="Antigua and Barbuda">Antigua and Barbuda
+                      </option>
+                      <option value="Argentina">Argentina
+                      </option>
+                      <option value="Armenia">Armenia
+                      </option>
+                      <option value="Aruba">Aruba
+                      </option>
+                      <option value="Austria">Austria
+                      </option>
+                      <option value="Azerbaijan">Azerbaijan
+                      </option>
+                      <option value="Bahamas">Bahamas
+                      </option>
+                      <option value="Bahrain">Bahrain
+                      </option>
+                      <option value="Bangladesh">Bangladesh
+                      </option>
+                      <option value="Barbados">Barbados
+                      </option>
+                      <option value="Belarus">Belarus
+                      </option>
+                      <option value="Belgium">Belgium
+                      </option>
+                      <option value="Belize">Belize
+                      </option>
+                      <option value="Benin">Benin
+                      </option>
+                      <option value="Bermuda">Bermuda
+                      </option>
+                      <option value="Bhutan">Bhutan
+                      </option>
+                      <option value="Bolivia">Bolivia
+                      </option>
+                      <option value="Bosnia and Herzegovina">Bosnia and Herzegovina
+                      </option>
+                      <option value="Botswana">Botswana
+                      </option>
+                      <option value="Bouvet Island">Bouvet Island
+                      </option>
+                      <option value="Brit/Indian Ocean Terr.">Brit/Indian Ocean Terr.
+                      </option>
+                      <option value="Brunei Darussalam">Brunei Darussalam
+                      </option>
+                      <option value="Bulgaria">Bulgaria
+                      </option>
+                      <option value="Burkina Faso">Burkina Faso
+                      </option>
+                      <option value="Burundi">Burundi
+                      </option>
+                      <option value="Cambodia">Cambodia
+                      </option>
+                      <option value="Cameroon">Cameroon
+                      </option>
+                      <option value="Cape Verde">Cape Verde
+                      </option>
+                      <option value="Cayman Islands">Cayman Islands
+                      </option>
+                      <option value="Central African Republic">Central African Republic
+                      </option>
+                      <option value="Chad">Chad
+                      </option>
+                      <option value="Chile">Chile
+                      </option>
+                      <option value="China">China
+                      </option>
+                      <option value="Christmas Island">Christmas Island
+                      </option>
+                      <option value="Cocos (Keeling) Islands">Cocos (Keeling) Islands
+                      </option>
+                      <option value="Colombia">Colombia
+                      </option>
+                      <option value="Comoros">Comoros
+                      </option>
+                      <option value="Congo">Congo
+                      </option>
+                      <option value="Congo, The Dem. Republic Of">Congo, The Dem. Republic Of
+                      </option>
+                      <option value="Cook Islands">Cook Islands
+                      </option>
+                      <option value="Costa Rica">Costa Rica
+                      </option>
+                      <option value="Côte d'Ivoire">Côte d'Ivoire
+                      </option>
+                      <option value="Croatia">Croatia
+                      </option>
+                      <option value="Cuba">Cuba
+                      </option>
+                      <option value="Cyprus">Cyprus
+                      </option>
+                      <option value="Czech Republic">Czech Republic
+                      </option>
+                      <option value="Denmark">Denmark
+                      </option>
+                      <option value="Djibouti">Djibouti
+                      </option>
+                      <option value="Dominica">Dominica
+                      </option>
+                      <option value="Dominican Republic">Dominican Republic
+                      </option>
+                      <option value="Ecuador">Ecuador
+                      </option>
+                      <option value="Egypt">Egypt
+                      </option>
+                      <option value="El Salvador">El Salvador
+                      </option>
+                      <option value="Equatorial Guinea">Equatorial Guinea
+                      </option>
+                      <option value="Eritrea">Eritrea
+                      </option>
+                      <option value="Estonia">Estonia
+                      </option>
+                      <option value="Ethiopia">Ethiopia
+                      </option>
+                      <option value="Falkland Islands">Falkland Islands
+                      </option>
+                      <option value="Faroe Islands">Faroe Islands
+                      </option>
+                      <option value="Fiji">Fiji
+                      </option>
+                      <option value="Finland">Finland
+                      </option>
+                      <option value="French Guiana">French Guiana
+                      </option>
+                      <option value="French Polynesia">French Polynesia
+                      </option>
+                      <option value="French Southern Terr.">French Southern Terr.
+                      </option>
+                      <option value="Gabon">Gabon
+                      </option>
+                      <option value="Gambia">Gambia
+                      </option>
+                      <option value="Georgia">Georgia
+                      </option>
+                      <option value="Ghana">Ghana
+                      </option>
+                      <option value="Gibraltar">Gibraltar
+                      </option>
+                      <option value="Greece">Greece
+                      </option>
+                      <option value="Greenland">Greenland
+                      </option>
+                      <option value="Grenada">Grenada
+                      </option>
+                      <option value="Guadeloupe">Guadeloupe
+                      </option>
+                      <option value="Guam">Guam
+                      </option>
+                      <option value="Guatemala">Guatemala
+                      </option>
+                      <option value="Guinea">Guinea
+                      </option>
+                      <option value="Guinea-Bissau">Guinea-Bissau
+                      </option>
+                      <option value="Guyana">Guyana
+                      </option>
+                      <option value="Haiti">Haiti
+                      </option>
+                      <option value="Heard/McDonald Isls.">Heard/McDonald Isls.
+                      </option>
+                      <option value="Honduras">Honduras
+                      </option>
+                      <option value="Hong Kong">Hong Kong
+                      </option>
+                      <option value="Hungary">Hungary
+                      </option>
+                      <option value="Iceland">Iceland
+                      </option>
+                      <option value="Indonesia">Indonesia
+                      </option>
+                      <option value="Iran">Iran
+                      </option>
+                      <option value="Iraq">Iraq
+                      </option>
+                      <option value="Ireland">Ireland
+                      </option>
+                      <option value="Israel">Israel
+                      </option>
+                      <option value="Italy">Italy
+                      </option>
+                      <option value="Jamaica">Jamaica
+                      </option>
+                      <option value="Japan">Japan
+                      </option>
+                      <option value="Jordan">Jordan
+                      </option>
+                      <option value="Kazakhstan">Kazakhstan
+                      </option>
+                      <option value="Kenya">Kenya
+                      </option>
+                      <option value="Kiribati">Kiribati
+                      </option>
+                      <option value="Korea (South)">Korea (South)
+                      </option>
+                      <option value="Kuwait">Kuwait
+                      </option>
+                      <option value="Kyrgyzstan">Kyrgyzstan
+                      </option>
+                      <option value="Laos">Laos
+                      </option>
+                      <option value="Latvia">Latvia
+                      </option>
+                      <option value="Lebanon">Lebanon
+                      </option>
+                      <option value="Lesotho">Lesotho
+                      </option>
+                      <option value="Liberia">Liberia
+                      </option>
+                      <option value="Libya">Libya
+                      </option>
+                      <option value="Liechtenstein">Liechtenstein
+                      </option>
+                      <option value="Lithuania">Lithuania
+                      </option>
+                      <option value="Luxembourg">Luxembourg
+                      </option>
+                      <option value="Macau">Macau
+                      </option>
+                      <option value="Macedonia">Macedonia
+                      </option>
+                      <option value="Madagascar">Madagascar
+                      </option>
+                      <option value="Malawi">Malawi
+                      </option>
+                      <option value="Malaysia">Malaysia
+                      </option>
+                      <option value="Maldives">Maldives
+                      </option>
+                      <option value="Mali">Mali
+                      </option>
+                      <option value="Malta">Malta
+                      </option>
+                      <option value="Marshall Islands">Marshall Islands
+                      </option>
+                      <option value="Martinique">Martinique
+                      </option>
+                      <option value="Mauritania">Mauritania
+                      </option>
+                      <option value="Mauritius">Mauritius
+                      </option>
+                      <option value="Mayotte">Mayotte
+                      </option>
+                      <option value="Mexico">Mexico
+                      </option>
+                      <option value="Micronesia">Micronesia
+                      </option>
+                      <option value="Moldova">Moldova
+                      </option>
+                      <option value="Monaco">Monaco
+                      </option>
+                      <option value="Mongolia">Mongolia
+                      </option>
+                      <option value="Montserrat">Montserrat
+                      </option>
+                      <option value="Morocco">Morocco
+                      </option>
+                      <option value="Mozambique">Mozambique
+                      </option>
+                      <option value="Myanmar">Myanmar
+                      </option>
+                      <option value="N. Mariana Isls.">N. Mariana Isls.
+                      </option>
+                      <option value="Namibia">Namibia
+                      </option>
+                      <option value="Nauru">Nauru
+                      </option>
+                      <option value="Nepal">Nepal
+                      </option>
+                      <option value="Netherlands Antilles">Netherlands Antilles
+                      </option>
+                      <option value="New Caledonia">New Caledonia
+                      </option>
+                      <option value="New Zealand">New Zealand
+                      </option>
+                      <option value="Nicaragua">Nicaragua
+                      </option>
+                      <option value="Niger">Niger
+                      </option>
+                      <option value="Nigeria">Nigeria
+                      </option>
+                      <option value="Niue">Niue
+                      </option>
+                      <option value="Norfolk Island">Norfolk Island
+                      </option>
+                      <option value="Norway">Norway
+                      </option>
+                      <option value="Oman">Oman
+                      </option>
+                      <option value="Pakistan">Pakistan
+                      </option>
+                      <option value="Palau">Palau
+                      </option>
+                      <option value="Palestinian Territory, Occupied">Palestinian Territory, Occupied
+                      </option>
+                      <option value="Panama">Panama
+                      </option>
+                      <option value="Papua New Guinea">Papua New Guinea
+                      </option>
+                      <option value="Paraguay">Paraguay
+                      </option>
+                      <option value="Peru">Peru
+                      </option>
+                      <option value="Philippines">Philippines
+                      </option>
+                      <option value="Pitcairn">Pitcairn
+                      </option>
+                      <option value="Poland">Poland
+                      </option>
+                      <option value="Portugal">Portugal
+                      </option>
+                      <option value="Puerto Rico">Puerto Rico
+                      </option>
+                      <option value="Qatar">Qatar
+                      </option>
+                      <option value="Reunion">Reunion
+                      </option>
+                      <option value="Romania">Romania
+                      </option>
+                      <option value="Rwanda">Rwanda
+                      </option>
+                      <option value="Saint Kitts and Nevis">Saint Kitts and Nevis
+                      </option>
+                      <option value="Saint Lucia">Saint Lucia
+                      </option>
+                      <option value="Samoa">Samoa
+                      </option>
+                      <option value="San Marino">San Marino
+                      </option>
+                      <option value="Sao Tome/Principe">Sao Tome/Principe
+                      </option>
+                      <option value="Saudi Arabia">Saudi Arabia
+                      </option>
+                      <option value="Senegal">Senegal
+                      </option>
+                      <option value="Serbia and Montenegro">Serbia and Montenegro
+                      </option>
+                      <option value="Seychelles">Seychelles
+                      </option>
+                      <option value="Sierra Leone">Sierra Leone
+                      </option>
+                      <option value="Slovak Republic">Slovak Republic
+                      </option>
+                      <option value="Slovenia">Slovenia
+                      </option>
+                      <option value="Solomon Islands">Solomon Islands
+                      </option>
+                      <option value="Somalia">Somalia
+                      </option>
+                      <option value="Spain">Spain
+                      </option>
+                      <option value="Sri Lanka">Sri Lanka
+                      </option>
+                      <option value="St. Helena">St. Helena
+                      </option>
+                      <option value="St. Pierre and Miquelon">St. Pierre and Miquelon
+                      </option>
+                      <option value="St. Vincent and Grenadines">St. Vincent and Grenadines
+                      </option>
+                      <option value="Sudan">Sudan
+                      </option>
+                      <option value="Suriname">Suriname
+                      </option>
+                      <option value="Svalbard/Jan Mayen Isls.">Svalbard/Jan Mayen Isls.
+                      </option>
+                      <option value="Swaziland">Swaziland
+                      </option>
+                      <option value="Switzerland">Switzerland
+                      </option>
+                      <option value="Syria">Syria
+                      </option>
+                      <option value="Taiwan">Taiwan
+                      </option>
+                      <option value="Tajikistan">Tajikistan
+                      </option>
+                      <option value="Tanzania">Tanzania
+                      </option>
+                      <option value="Thailand">Thailand
+                      </option>
+                      <option value="Timor-Leste">Timor-Leste
+                      </option>
+                      <option value="Togo">Togo
+                      </option>
+                      <option value="Tokelau">Tokelau
+                      </option>
+                      <option value="Tonga">Tonga
+                      </option>
+                      <option value="Trinidad and Tobago">Trinidad and Tobago
+                      </option>
+                      <option value="Tunisia">Tunisia
+                      </option>
+                      <option value="Turkey">Turkey
+                      </option>
+                      <option value="Turkmenistan">Turkmenistan
+                      </option>
+                      <option value="Turks/Caicos Isls.">Turks/Caicos Isls.
+                      </option>
+                      <option value="Tuvalu">Tuvalu
+                      </option>
+                      <option value="Uganda">Uganda
+                      </option>
+                      <option value="Ukraine">Ukraine
+                      </option>
+                      <option value="United Arab Emirates">United Arab Emirates
+                      </option>
+                      <option value="US Minor Outlying Is.">US Minor Outlying Is.
+                      </option>
+                      <option value="Uruguay">Uruguay
+                      </option>
+                      <option value="Uzbekistan">Uzbekistan
+                      </option>
+                      <option value="Vanuatu">Vanuatu
+                      </option>
+                      <option value="Vatican City">Vatican City
+                      </option>
+                      <option value="Venezuela">Venezuela
+                      </option>
+                      <option value="Viet Nam">Viet Nam
+                      </option>
+                      <option value="Virgin Islands (British)">Virgin Islands (British)
+                      </option>
+                      <option value="Virgin Islands (U.S.)">Virgin Islands (U.S.)
+                      </option>
+                      <option value="Wallis/Futuna Isls.">Wallis/Futuna Isls.
+                      </option>
+                      <option value="Western Sahara">Western Sahara
+                      </option>
+                      <option value="Yemen">Yemen
+                      </option>
+                      <option value="Zambia">Zambia
+                      </option>
+                      <option value="Zimbabwe">Zimbabwe
+                      </option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="grid-layout-col">
+        <div class="layout-col col-sm-12 col-xs-12">
+          <div id="formElement6" class="elq-field-style form-element-layout row">
+            
+            <div class="col-sm-12 col-xs-12">
+              <div class="row">
+                <div class="col-xs-12">
+                  <div class="field-control-wrapper">
+                    <select class="elq-item-select" id="fe4617" name="annualRFIDvolume" style="width:100%;" required data-value="">
+                      <option selected disabled value="">Annual RFID Volume*
+                      </option>
+                      <option value="1 - 500,000">1 - 500,000
+                      </option>
+                      <option value="500,000 - 1 million">500,000 - 1 million
+                      </option>
+                      <option value="1 million - 5 million">1 million - 5 million
+                      </option>
+                      <option value="5 million - 20 million">5 million - 20 million
+                      </option>
+                      <option value="20 million +">20 million +
+                      </option>
+                      <option value="Not Sure">Not sure
+                      </option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="grid-layout-col">
+        <div class="layout-col col-sm-12 col-xs-12">
+          <div id="formElement7" class="elq-field-style form-element-layout row">
+            
+            <div class="col-sm-12 col-xs-12">
+              <div class="row">
+                <div class="col-xs-12">
+                  <div class="field-control-wrapper">
+                    <input type="text" class="elq-item-input lastInput" name="comments" id="fe4515" value="" style="width:100%; padding: 15px;" placeholder="Comments">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br/>
+    <div class="row">
+      <div class="grid-layout-col">
+        <div class="layout-col col-sm-12 col-xs-12">
+          <div id="formElement8" class="elq-field-style form-element-layout row">
+            <div class="col-sm-12 col-xs-12">
+              <div class="row">
+                <div class="col-xs-12">
+                  <div style="text-align:left;">
+                    <h4 class="elq-heading form-element-form-text">By submitting I acknowledge that the personal data provided above will be processed in accordance with Avery Dennison <a style="text-decoration: underline !important;"href="https://www.averydennison.com/en/home/legal-and-privacy-notices.html">Privacy Notice</a>
+                    </h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="grid-layout-col">
+        <div class="layout-col col-sm-12 col-xs-12">
+          <div id="formElement9" class="elq-field-style form-element-layout row">
+            <div class="col-sm-12 col-xs-12">
+              <div class="row">
+                <div class="col-xs-12">
+                  <div>
+                    <input type="Submit" class="submit-button-style " value="SUBMIT" id="fe4521">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <input type="hidden" name="Campaign_DSG" id="fe4516" value="1">
+    <input type="hidden" name="systemID" id="fe4517" value="WEB">
+    <input type="hidden" name="Language" id="fe4518" value="">
+    <input type="hidden" name="SystemSource" id="fe4519" value="DSG-RFID-Campaign">
+    <input type="hidden" name="LeadSourceMostRecent" id="fe4520" value="DSG-ContactUs-Form">
+  </div>
+</form>
+<script type="text/javascript" src="https://img03.en25.com/i/livevalidation_standalone.compressed.js">
+</script>
+<script>function handleFormSubmit(ele) {
+    var submitButton = ele.querySelector('input[type=submit]');
+    var spinner = document.createElement('span');
+    spinner.setAttribute('class', 'loader');
+    submitButton.setAttribute('disabled', true);
+    submitButton.style.cursor = 'wait';
+    submitButton.parentNode.appendChild(spinner);
+    return true;
+  }
+  function resetSubmitButton(e){
+    var submitButtons = e.target.form.getElementsByClassName('submit-button');
+    for(var i=0;i<submitButtons.length;i++){
+      submitButtons[i].disabled = false;
     }
-    function resetSubmitButton(e){
-      var submitButtons = e.target.form.getElementsByClassName('submit-button');
-      for(var i=0;i<submitButtons.length;i++){
-        submitButtons[i].disabled = false;
+  }
+  function addChangeHandler(elements){
+    for(var i=0; i<elements.length; i++){
+      elements[i].addEventListener('change', resetSubmitButton);
+    }
+  }
+  var form = document.getElementById('form284');
+  addChangeHandler(form.getElementsByTagName('input'));
+  addChangeHandler(form.getElementsByTagName('select'));
+  addChangeHandler(form.getElementsByTagName('textarea'));
+  var nodes = document.querySelectorAll('#form284 input[data-subscription]');
+  if (nodes) {
+    for (var i = 0, len = nodes.length; i < len; i++) {
+      var status = nodes[i].dataset ? nodes[i].dataset.subscription : nodes[i].getAttribute('data-subscription');
+      if(status ==='true') {
+        nodes[i].checked = true;
       }
     }
-    function addChangeHandler(elements){
-      for(var i=0; i<elements.length; i++){
-        elements[i].addEventListener('change', resetSubmitButton);
-      }
-    }
-    var form = document.getElementById('form284');
-    addChangeHandler(form.getElementsByTagName('input'));
-    addChangeHandler(form.getElementsByTagName('select'));
-    addChangeHandler(form.getElementsByTagName('textarea'));
-    var nodes = document.querySelectorAll('#form284 input[data-subscription]');
-    if (nodes) {
-      for (var i = 0, len = nodes.length; i < len; i++) {
-        var status = nodes[i].dataset ? nodes[i].dataset.subscription : nodes[i].getAttribute('data-subscription');
-        if(status ==='true') {
-          nodes[i].checked = true;
-        }
-      }
-    };
-    var nodes = document.querySelectorAll('#form284 select[data-value]');
-    if (nodes) {
-      for (var i = 0; i < nodes.length; i++) {
-        var node = nodes[i];
-        var selectedValue = node.dataset ? node.dataset.value : node.getAttribute('data-value');
-        if (selectedValue) {
-          for (var j = 0; j < node.options.length; j++) {
-            if(node.options[j].value === selectedValue) {
-              node.options[j].selected = 'selected';
-              break;
-            }
+  };
+  var nodes = document.querySelectorAll('#form284 select[data-value]');
+  if (nodes) {
+    for (var i = 0; i < nodes.length; i++) {
+      var node = nodes[i];
+      var selectedValue = node.dataset ? node.dataset.value : node.getAttribute('data-value');
+      if (selectedValue) {
+        for (var j = 0; j < node.options.length; j++) {
+          if(node.options[j].value === selectedValue) {
+            node.options[j].selected = 'selected';
+            break;
           }
         }
       }
     }
-    this.getParentElement = function(list) {
-      return list[list.length-1].parentElement};
-    var dom0 = document.querySelector('#form284 #fe4510');
-    var fe4510 = new LiveValidation(dom0, {
-      validMessage: "", onlyOnBlur: false, wait: 300, isPhoneField: false}
-                                   );
-    fe4510.add(Validate.Custom, {
-      against: function(value) {
-        return !value.match(/(telnet|ftp|https?):\/\/(?:[a-z0-9][a-z0-9-]{0,61}[a-z0-9]\.|[a-z0-9]\.)+[a-z]{2,63}/i);
-      }
-      , failureMessage: "Value must not contain any URL's"}
-              );
-    fe4510.add(Validate.Custom, {
-      against: function(value) {
-        return !value.match(/(<([^>]+)>)/ig);
-      }
-      , failureMessage: "Value must not contain any HTML"}
-              );
-    fe4510.add(Validate.Length, {
-      tooShortMessage:"Invalid length for field value", tooLongMessage: "Invalid length for field value",  minimum: 0, maximum: 35}
-              );
-    fe4510.add(Validate.Presence, {
-      failureMessage:"This field is required"}
-              );
-    var dom1 = document.querySelector('#form284 #fe4511');
-    var fe4511 = new LiveValidation(dom1, {
-      validMessage: "", onlyOnBlur: false, wait: 300, isPhoneField: false}
-                                   );
-    fe4511.add(Validate.Custom, {
-      against: function(value) {
-        return !value.match(/(telnet|ftp|https?):\/\/(?:[a-z0-9][a-z0-9-]{0,61}[a-z0-9]\.|[a-z0-9]\.)+[a-z]{2,63}/i);
-      }
-      , failureMessage: "Value must not contain any URL's"}
-              );
-    fe4511.add(Validate.Custom, {
-      against: function(value) {
-        return !value.match(/(<([^>]+)>)/ig);
-      }
-      , failureMessage: "Value must not contain any HTML"}
-              );
-    fe4511.add(Validate.Length, {
-      tooShortMessage:"Invalid length for field value", tooLongMessage: "Invalid length for field value",  minimum: 0, maximum: 35}
-              );
-    fe4511.add(Validate.Presence, {
-      failureMessage:"This field is required"}
-              );
-    var dom2 = document.querySelector('#form284 #fe4512');
-    var fe4512 = new LiveValidation(dom2, {
-      validMessage: "", onlyOnBlur: false, wait: 300, isPhoneField: false}
-                                   );
-    fe4512.add(Validate.Presence, {
-      failureMessage:"This field is required"}
-              );
-    fe4512.add(Validate.Format, {
-      pattern: /(^[A-Z0-9!#\$%&'\*\+\-\/=\?\^_`\{\|\}~][A-Z0-9!#\$%&'\*\+\-\/=\?\^_`\{\|\}~\.]{0,62}@(([A-Z0-9](?:[A-Z0-9\-]{0,61}[A-Z0-9])?)(\.[A-Z0-9](?:[A-Z0-9\-]{0,61}[A-Z0-9])?)+)$)/i, failureMessage: "A valid email address is required"}
-              );
-    fe4512.add(Validate.Format, {
-      pattern: /\.\.|\.@/i, failureMessage: "A valid email address is required", negate: "true"}
-              );
-    var dom3 = document.querySelector('#form284 #fe4513');
-    var fe4513 = new LiveValidation(dom3, {
-      validMessage: "", onlyOnBlur: false, wait: 300, isPhoneField: false}
-                                   );
-    fe4513.add(Validate.Presence, {
-      failureMessage:"This field is required"}
-              );
-    var dom4 = document.querySelector('#form284 #fe4514');
-    var fe4514 = new LiveValidation(dom4, {
-      validMessage: "", onlyOnBlur: false, wait: 300, isPhoneField: false}
-                                   );
-    fe4514.add(Validate.Custom, {
-      against: function(value) {
-        return !value.match(/(telnet|ftp|https?):\/\/(?:[a-z0-9][a-z0-9-]{0,61}[a-z0-9]\.|[a-z0-9]\.)+[a-z]{2,63}/i);
-      }
-      , failureMessage: "Value must not contain any URL's"}
-              );
-    fe4514.add(Validate.Custom, {
-      against: function(value) {
-        return !value.match(/(<([^>]+)>)/ig);
-      }
-      , failureMessage: "Value must not contain any HTML"}
-              );
-    fe4514.add(Validate.Length, {
-      tooShortMessage:"Invalid length for field value", tooLongMessage: "Invalid length for field value",  minimum: 0, maximum: 35}
-              );
-    fe4514.add(Validate.Presence, {
-      failureMessage:"This field is required"}
-              );
-    var dom5 = document.querySelector('#form284 #fe4515');
-    var fe4515 = new LiveValidation(dom5, {
-      validMessage: "", onlyOnBlur: false, wait: 300, isPhoneField: false}
-                                   );
-    fe4515.add(Validate.Custom, {
-      against: function(value) {
-        return !value.match(/(telnet|ftp|https?):\/\/(?:[a-z0-9][a-z0-9-]{0,61}[a-z0-9]\.|[a-z0-9]\.)+[a-z]{2,63}/i);
-      }
-      , failureMessage: "Value must not contain any URL's"}
-              );
-    fe4515.add(Validate.Custom, {
-      against: function(value) {
-        return !value.match(/(<([^>]+)>)/ig);
-      }
-      , failureMessage: "Value must not contain any HTML"}
-              );
-    fe4515.add(Validate.Length, {
-      tooShortMessage:"Invalid length for field value", tooLongMessage: "Invalid length for field value",  minimum: 0, maximum: 55}
-              );
-  </script>
-  <script type='text/javascript'>
-    function elqGetCookie(name) {
-        var cookies = document.cookie.split(';');
-        for (var i = 0; i < cookies.length; i++) {
-            var position = cookies[i].indexOf('=');
-            if (position > 0 && position < cookies[i].length - 1) {
-                var x = cookies[i].substr(0, position);
-                var y = cookies[i].substr(position + 1);
-                x = x.replace(/^\s+|\s+$/g, '');
-                if (x == name) {
-                    return unescape(y);
-                }
-            }
-        }
-        return '';
+  }
+  this.getParentElement = function(list) {
+    return list[list.length-1].parentElement};
+  var dom0 = document.querySelector('#form284 #fe4510');
+  var fe4510 = new LiveValidation(dom0, {
+    validMessage: "", onlyOnBlur: false, wait: 300, isPhoneField: false}
+                                 );
+  fe4510.add(Validate.Custom, {
+    against: function(value) {
+      return !value.match(/(telnet|ftp|https?):\/\/(?:[a-z0-9][a-z0-9-]{0,61}[a-z0-9]\.|[a-z0-9]\.)+[a-z]{2,63}/i);
     }
-    function elqGetCookieSubValue(name, subKey) {
-        var cookieValue = elqGetCookie(name);
-        if (cookieValue == null || cookieValue == '')
-            return '';
-        var cookieSubValue = cookieValue.split('&');
-        for (var i = 0; i < cookieSubValue.length; i++) {
-            var pair = cookieSubValue[i].split('=');
-            if (pair.length > 1) {
-                if (pair[0] == subKey) {
-                    return pair[1];
-                }
-            }
-        }
-        return '';
+    , failureMessage: "Value must not contain any URL's"}
+            );
+  fe4510.add(Validate.Custom, {
+    against: function(value) {
+      return !value.match(/(<([^>]+)>)/ig);
     }
-    function elqSetCustomerGUID() {
-        var elqCustomerGuid = elqGetCookieSubValue('ELOQUA', 'GUID');
-        if (elqCustomerGuid != null && elqCustomerGuid != '')
-            document.forms['nyc-event-registration-DS'].elements['elqCustomerGUID'].value = elqCustomerGuid;
-        return;
+    , failureMessage: "Value must not contain any HTML"}
+            );
+  fe4510.add(Validate.Length, {
+    tooShortMessage:"Invalid length for field value", tooLongMessage: "Invalid length for field value",  minimum: 0, maximum: 35}
+            );
+  fe4510.add(Validate.Presence, {
+    failureMessage:"This field is required"}
+            );
+  var dom1 = document.querySelector('#form284 #fe4511');
+  var fe4511 = new LiveValidation(dom1, {
+    validMessage: "", onlyOnBlur: false, wait: 300, isPhoneField: false}
+                                 );
+  fe4511.add(Validate.Custom, {
+    against: function(value) {
+      return !value.match(/(telnet|ftp|https?):\/\/(?:[a-z0-9][a-z0-9-]{0,61}[a-z0-9]\.|[a-z0-9]\.)+[a-z]{2,63}/i);
     }
-    window.onload = elqSetCustomerGUID;
+    , failureMessage: "Value must not contain any URL's"}
+            );
+  fe4511.add(Validate.Custom, {
+    against: function(value) {
+      return !value.match(/(<([^>]+)>)/ig);
+    }
+    , failureMessage: "Value must not contain any HTML"}
+            );
+  fe4511.add(Validate.Length, {
+    tooShortMessage:"Invalid length for field value", tooLongMessage: "Invalid length for field value",  minimum: 0, maximum: 35}
+            );
+  fe4511.add(Validate.Presence, {
+    failureMessage:"This field is required"}
+            );
+  var dom2 = document.querySelector('#form284 #fe4512');
+  var fe4512 = new LiveValidation(dom2, {
+    validMessage: "", onlyOnBlur: false, wait: 300, isPhoneField: false}
+                                 );
+  fe4512.add(Validate.Presence, {
+    failureMessage:"This field is required"}
+            );
+  fe4512.add(Validate.Format, {
+    pattern: /(^[A-Z0-9!#\$%&'\*\+\-\/=\?\^_`\{\|\}~][A-Z0-9!#\$%&'\*\+\-\/=\?\^_`\{\|\}~\.]{0,62}@(([A-Z0-9](?:[A-Z0-9\-]{0,61}[A-Z0-9])?)(\.[A-Z0-9](?:[A-Z0-9\-]{0,61}[A-Z0-9])?)+)$)/i, failureMessage: "A valid email address is required"}
+            );
+  fe4512.add(Validate.Format, {
+    pattern: /\.\.|\.@/i, failureMessage: "A valid email address is required", negate: "true"}
+            );
+  var dom3 = document.querySelector('#form284 #fe4513');
+  var fe4513 = new LiveValidation(dom3, {
+    validMessage: "", onlyOnBlur: false, wait: 300, isPhoneField: false}
+                                 );
+  fe4513.add(Validate.Presence, {
+    failureMessage:"This field is required"}
+            );
+  var dom4 = document.querySelector('#form284 #fe4514');
+  var fe4514 = new LiveValidation(dom4, {
+    validMessage: "", onlyOnBlur: false, wait: 300, isPhoneField: false}
+                                 );
+  fe4514.add(Validate.Custom, {
+    against: function(value) {
+      return !value.match(/(telnet|ftp|https?):\/\/(?:[a-z0-9][a-z0-9-]{0,61}[a-z0-9]\.|[a-z0-9]\.)+[a-z]{2,63}/i);
+    }
+    , failureMessage: "Value must not contain any URL's"}
+            );
+  fe4514.add(Validate.Custom, {
+    against: function(value) {
+      return !value.match(/(<([^>]+)>)/ig);
+    }
+    , failureMessage: "Value must not contain any HTML"}
+            );
+  fe4514.add(Validate.Length, {
+    tooShortMessage:"Invalid length for field value", tooLongMessage: "Invalid length for field value",  minimum: 0, maximum: 35}
+            );
+  fe4514.add(Validate.Presence, {
+    failureMessage:"This field is required"}
+            );
+  var dom5 = document.querySelector('#form284 #fe4616');
+  var fe4616 = new LiveValidation(dom5, {
+    validMessage: "", onlyOnBlur: false, wait: 300, isPhoneField: false}
+                                 );
+  fe4616.add(Validate.Presence, {
+    failureMessage:"This field is required"}
+            );
+  var dom6 = document.querySelector('#form284 #fe4617');
+  var fe4617 = new LiveValidation(dom6, {
+    validMessage: "", onlyOnBlur: false, wait: 300, isPhoneField: false}
+                                 );
+  fe4617.add(Validate.Presence, {
+    failureMessage:"This field is required"}
+            );
+  var dom7 = document.querySelector('#form284 #fe4515');
+  var fe4515 = new LiveValidation(dom7, {
+    validMessage: "", onlyOnBlur: false, wait: 300, isPhoneField: false}
+                                 );
+  fe4515.add(Validate.Custom, {
+    against: function(value) {
+      return !value.match(/(telnet|ftp|https?):\/\/(?:[a-z0-9][a-z0-9-]{0,61}[a-z0-9]\.|[a-z0-9]\.)+[a-z]{2,63}/i);
+    }
+    , failureMessage: "Value must not contain any URL's"}
+            );
+  fe4515.add(Validate.Custom, {
+    against: function(value) {
+      return !value.match(/(<([^>]+)>)/ig);
+    }
+    , failureMessage: "Value must not contain any HTML"}
+            );
+  fe4515.add(Validate.Length, {
+    tooShortMessage:"Invalid length for field value", tooLongMessage: "Invalid length for field value",  minimum: 0, maximum: 55}
+            );
+</script>
+<script type='text/javascript'>
+  function elqGetCookie(name) {
+      var cookies = document.cookie.split(';');
+      for (var i = 0; i < cookies.length; i++) {
+          var position = cookies[i].indexOf('=');
+          if (position > 0 && position < cookies[i].length - 1) {
+              var x = cookies[i].substr(0, position);
+              var y = cookies[i].substr(position + 1);
+              x = x.replace(/^\s+|\s+$/g, '');
+              if (x == name) {
+                  return unescape(y);
+              }
+          }
+      }
+      return '';
+  }
+  function elqGetCookieSubValue(name, subKey) {
+      var cookieValue = elqGetCookie(name);
+      if (cookieValue == null || cookieValue == '')
+          return '';
+      var cookieSubValue = cookieValue.split('&');
+      for (var i = 0; i < cookieSubValue.length; i++) {
+          var pair = cookieSubValue[i].split('=');
+          if (pair.length > 1) {
+              if (pair[0] == subKey) {
+                  return pair[1];
+              }
+          }
+      }
+      return '';
+  }
+  function elqSetCustomerGUID() {
+      var elqCustomerGuid = elqGetCookieSubValue('ELOQUA', 'GUID');
+      if (elqCustomerGuid != null && elqCustomerGuid != '')
+          document.forms['nyc-event-registration-DS'].elements['elqCustomerGUID'].value = elqCustomerGuid;
+      return;
+  }
+  window.onload = elqSetCustomerGUID;
 
-    var data = [{ "code": "US", "value": "United States" }, { "code": "GB", "value": "United Kingdom" }, { "code": "CA", "value": "Canada" }, { "code": "IN", "value": "India" }, { "code": "NL", "value": "Netherlands" }, { "code": "AU", "value": "Australia" }, { "code": "ZA", "value": "South Africa" }, { "code": "FR", "value": "France" }, { "code": "DE", "value": "Germany" }, { "code": "SG", "value": "Singapore" }, { "code": "SE", "value": "Sweden" }, { "code": "BR", "value": "Brazil" }, { "code": "AF", "value": "Afghanistan" }, { "code": "AX", "value": "Åland Islands" }, { "code": "AL", "value": "Albania" }, { "code": "DZ", "value": "Algeria" }, { "code": "AS", "value": "American Samoa" }, { "code": "AD", "value": "Andorra" }, { "code": "AO", "value": "Angola" }, { "code": "AI", "value": "Anguilla" }, { "code": "AQ", "value": "Antarctica" }, { "code": "AG", "value": "Antigua and Barbuda" }, { "code": "AR", "value": "Argentina" }, { "code": "AM", "value": "Armenia" }, { "code": "AW", "value": "Aruba" }, { "code": "AU", "value": "Australia" }, { "code": "AT", "value": "Austria" }, { "code": "AZ", "value": "Azerbaijan" }, { "code": "BS", "value": "Bahamas" }, { "code": "BH", "value": "Bahrain" }, { "code": "BD", "value": "Bangladesh" }, { "code": "BB", "value": "Barbados" }, { "code": "BY", "value": "Belarus" }, { "code": "BE", "value": "Belgium" }, { "code": "BZ", "value": "Belize" }, { "code": "BJ", "value": "Benin" }, { "code": "BM", "value": "Bermuda" }, { "code": "BT", "value": "Bhutan" }, { "code": "BO", "value": "Bolivia" }, { "code": "BA", "value": "Bosnia and Herzegovina" }, { "code": "BW", "value": "Botswana" }, { "code": "BV", "value": "Bouvet Island" }, { "code": "BR", "value": "Brazil" }, { "code": "IO", "value": "Brit/Indian Ocean Terr." }, { "code": "BN", "value": "Brunei Darussalam" }, { "code": "BG", "value": "Bulgaria" }, { "code": "BF", "value": "Burkina Faso" }, { "code": "BI", "value": "Burundi" }, { "code": "KH", "value": "Cambodia" }, { "code": "CM", "value": "Cameroon" }, { "code": "CA", "value": "Canada" }, { "code": "CV", "value": "Cape Verde" }, { "code": "KY", "value": "Cayman Islands" }, { "code": "CF", "value": "Central African Republic" }, { "code": "TD", "value": "Chad" }, { "code": "CL", "value": "Chile" }, { "code": "CN", "value": "China" }, { "code": "CX", "value": "Christmas Island" }, { "code": "CC", "value": "Cocos (Keeling) Islands" }, { "code": "CO", "value": "Colombia" }, { "code": "KM", "value": "Comoros" }, { "code": "CG", "value": "Congo" }, { "code": "CD", "value": "Congo, The Dem. Republic Of" }, { "code": "CK", "value": "Cook Islands" }, { "code": "CR", "value": "Costa Rica" }, { "code": "CI", "value": "Côte d'Ivoire" }, { "code": "HR", "value": "Croatia" }, { "code": "CU", "value": "Cuba" }, { "code": "CY", "value": "Cyprus" }, { "code": "CZ", "value": "Czech Republic" }, { "code": "DK", "value": "Denmark" }, { "code": "DJ", "value": "Djibouti" }, { "code": "DM", "value": "Dominica" }, { "code": "DO", "value": "Dominican Republic" }, { "code": "EC", "value": "Ecuador" }, { "code": "EG", "value": "Egypt" }, { "code": "SV", "value": "El Salvador" }, { "code": "GQ", "value": "Equatorial Guinea" }, { "code": "ER", "value": "Eritrea" }, { "code": "EE", "value": "Estonia" }, { "code": "ET", "value": "Ethiopia" }, { "code": "FK", "value": "Falkland Islands" }, { "code": "FO", "value": "Faroe Islands" }, { "code": "FJ", "value": "Fiji" }, { "code": "FI", "value": "Finland" }, { "code": "FR", "value": "France" }, { "code": "GF", "value": "French Guiana" }, { "code": "PF", "value": "French Polynesia" }, { "code": "TF", "value": "French Southern Terr." }, { "code": "GA", "value": "Gabon" }, { "code": "GM", "value": "Gambia" }, { "code": "GE", "value": "Georgia" }, { "code": "DE", "value": "Germany" }, { "code": "GH", "value": "Ghana" }, { "code": "GI", "value": "Gibraltar" }, { "code": "GB", "value": "United Kingdom" }, { "code": "GR", "value": "Greece" }, { "code": "GL", "value": "Greenland" }, { "code": "GD", "value": "Grenada" }, { "code": "GP", "value": "Guadeloupe" }, { "code": "GU", "value": "Guam" }, { "code": "GT", "value": "Guatemala" }, { "code": "GN", "value": "Guinea" }, { "code": "GW", "value": "Guinea-Bissau" }, { "code": "GY", "value": "Guyana" }, { "code": "HT", "value": "Haiti" }, { "code": "HM", "value": "Heard/McDonald Isls." }, { "code": "HN", "value": "Honduras" }, { "code": "HK", "value": "Hong Kong" }, { "code": "HU", "value": "Hungary" }, { "code": "IS", "value": "Iceland" }, { "code": "IN", "value": "India" }, { "code": "ID", "value": "Indonesia" }, { "code": "IR", "value": "Iran" }, { "code": "IQ", "value": "Iraq" }, { "code": "IE", "value": "Ireland" }, { "code": "IL", "value": "Israel" }, { "code": "IT", "value": "Italy" }, { "code": "JM", "value": "Jamaica" }, { "code": "JP", "value": "Japan" }, { "code": "JO", "value": "Jordan" }, { "code": "KZ", "value": "Kazakhstan" }, { "code": "KE", "value": "Kenya" }, { "code": "KI", "value": "Kiribati" }, { "code": "KP", "value": "Korea (North)" }, { "code": "KR", "value": "Korea (South)" }, { "code": "KW", "value": "Kuwait" }, { "code": "KG", "value": "Kyrgyzstan" }, { "code": "LA", "value": "Laos" }, { "code": "LV", "value": "Latvia" }, { "code": "LB", "value": "Lebanon" }, { "code": "LS", "value": "Lesotho" }, { "code": "LR", "value": "Liberia" }, { "code": "LY", "value": "Libya" }, { "code": "LI", "value": "Liechtenstein" }, { "code": "LT", "value": "Lithuania" }, { "code": "LU", "value": "Luxembourg" }, { "code": "MO", "value": "Macau" }, { "code": "MK", "value": "Macedonia" }, { "code": "MG", "value": "Madagascar" }, { "code": "MW", "value": "Malawi" }, { "code": "MY", "value": "Malaysia" }, { "code": "MV", "value": "Maldives" }, { "code": "ML", "value": "Mali" }, { "code": "MT", "value": "Malta" }, { "code": "MH", "value": "Marshall Islands" }, { "code": "MQ", "value": "Martinique" }, { "code": "MR", "value": "Mauritania" }, { "code": "MU", "value": "Mauritius" }, { "code": "YT", "value": "Mayotte" }, { "code": "MX", "value": "Mexico" }, { "code": "FM", "value": "Micronesia" }, { "code": "MD", "value": "Moldova" }, { "code": "MC", "value": "Monaco" }, { "code": "MN", "value": "Mongolia" }, { "code": "MS", "value": "Montserrat" }, { "code": "MA", "value": "Morocco" }, { "code": "MZ", "value": "Mozambique" }, { "code": "MM", "value": "Myanmar" }, { "code": "MP", "value": "N. Mariana Isls." }, { "code": "NA", "value": "Namibia" }, { "code": "NR", "value": "Nauru" }, { "code": "NP", "value": "Nepal" }, { "code": "NL", "value": "Netherlands" }, { "code": "AN", "value": "Netherlands Antilles" }, { "code": "NC", "value": "New Caledonia" }, { "code": "NZ", "value": "New Zealand" }, { "code": "NI", "value": "Nicaragua" }, { "code": "NE", "value": "Niger" }, { "code": "NG", "value": "Nigeria" }, { "code": "NU", "value": "Niue" }, { "code": "NF", "value": "Norfolk Island" }, { "code": "NO", "value": "Norway" }, { "code": "OM", "value": "Oman" }, { "code": "PK", "value": "Pakistan" }, { "code": "PW", "value": "Palau" }, { "code": "PS", "value": "Palestinian Territory, Occupied" }, { "code": "PA", "value": "Panama" }, { "code": "PG", "value": "Papua New Guinea" }, { "code": "PY", "value": "Paraguay" }, { "code": "PE", "value": "Peru" }, { "code": "PH", "value": "Philippines" }, { "code": "PN", "value": "Pitcairn" }, { "code": "PL", "value": "Poland" }, { "code": "PT", "value": "Portugal" }, { "code": "PR", "value": "Puerto Rico" }, { "code": "QA", "value": "Qatar" }, { "code": "RE", "value": "Reunion" }, { "code": "RO", "value": "Romania" }, { "code": "RU", "value": "Russian Federation" }, { "code": "RW", "value": "Rwanda" }, { "code": "KN", "value": "Saint Kitts and Nevis" }, { "code": "LC", "value": "Saint Lucia" }, { "code": "WS", "value": "Samoa" }, { "code": "SM", "value": "San Marino" }, { "code": "ST", "value": "Sao Tome/Principe" }, { "code": "SA", "value": "Saudi Arabia" }, { "code": "SN", "value": "Senegal" }, { "code": "CS", "value": "Serbia and Montenegro" }, { "code": "SC", "value": "Seychelles" }, { "code": "SL", "value": "Sierra Leone" }, { "code": "SG", "value": "Singapore" }, { "code": "SK", "value": "Slovak Republic" }, { "code": "SI", "value": "Slovenia" }, { "code": "SB", "value": "Solomon Islands" }, { "code": "SO", "value": "Somalia" }, { "code": "ZA", "value": "South Africa" }, { "code": "ES", "value": "Spain" }, { "code": "LK", "value": "Sri Lanka" }, { "code": "SH", "value": "St. Helena" }, { "code": "PM", "value": "St. Pierre and Miquelon" }, { "code": "VC", "value": "St. Vincent and Grenadines" }, { "code": "SD", "value": "Sudan" }, { "code": "SR", "value": "Suriname" }, { "code": "SJ", "value": "Svalbard/Jan Mayen Isls." }, { "code": "SZ", "value": "Swaziland" }, { "code": "SE", "value": "Sweden" }, { "code": "CH", "value": "Switzerland" }, { "code": "SY", "value": "Syria" }, { "code": "TW", "value": "Taiwan" }, { "code": "TJ", "value": "Tajikistan" }, { "code": "TZ", "value": "Tanzania" }, { "code": "TH", "value": "Thailand" }, { "code": "TL", "value": "Timor-Leste" }, { "code": "TG", "value": "Togo" }, { "code": "TK", "value": "Tokelau" }, { "code": "TO", "value": "Tonga" }, { "code": "TT", "value": "Trinidad and Tobago" }, { "code": "TN", "value": "Tunisia" }, { "code": "TR", "value": "Turkey" }, { "code": "TM", "value": "Turkmenistan" }, { "code": "TC", "value": "Turks/Caicos Isls." }, { "code": "TV", "value": "Tuvalu" }, { "code": "UG", "value": "Uganda" }, { "code": "UA", "value": "Ukraine" }, { "code": "AE", "value": "United Arab Emirates" }, { "code": "US", "value": "United States" }, { "code": "UM", "value": "US Minor Outlying Is." }, { "code": "UY", "value": "Uruguay" }, { "code": "UZ", "value": "Uzbekistan" }, { "code": "VU", "value": "Vanuatu" }, { "code": "VA", "value": "Vatican City" }, { "code": "VE", "value": "Venezuela" }, { "code": "VN", "value": "Viet Nam" }, { "code": "VG", "value": "Virgin Islands (British)" }, { "code": "VI", "value": "Virgin Islands (U.S.)" }, { "code": "WF", "value": "Wallis/Futuna Isls." }, { "code": "EH", "value": "Western Sahara" }, { "code": "YE", "value": "Yemen" }, { "code": "ZM", "value": "Zambia" }, { "code": "ZW", "value": "Zimbabwe" }];
+  var data = [{ "code": "US", "value": "United States" }, { "code": "GB", "value": "United Kingdom" }, { "code": "CA", "value": "Canada" }, { "code": "IN", "value": "India" }, { "code": "NL", "value": "Netherlands" }, { "code": "AU", "value": "Australia" }, { "code": "ZA", "value": "South Africa" }, { "code": "FR", "value": "France" }, { "code": "DE", "value": "Germany" }, { "code": "SG", "value": "Singapore" }, { "code": "SE", "value": "Sweden" }, { "code": "BR", "value": "Brazil" }, { "code": "AF", "value": "Afghanistan" }, { "code": "AX", "value": "Åland Islands" }, { "code": "AL", "value": "Albania" }, { "code": "DZ", "value": "Algeria" }, { "code": "AS", "value": "American Samoa" }, { "code": "AD", "value": "Andorra" }, { "code": "AO", "value": "Angola" }, { "code": "AI", "value": "Anguilla" }, { "code": "AQ", "value": "Antarctica" }, { "code": "AG", "value": "Antigua and Barbuda" }, { "code": "AR", "value": "Argentina" }, { "code": "AM", "value": "Armenia" }, { "code": "AW", "value": "Aruba" }, { "code": "AU", "value": "Australia" }, { "code": "AT", "value": "Austria" }, { "code": "AZ", "value": "Azerbaijan" }, { "code": "BS", "value": "Bahamas" }, { "code": "BH", "value": "Bahrain" }, { "code": "BD", "value": "Bangladesh" }, { "code": "BB", "value": "Barbados" }, { "code": "BY", "value": "Belarus" }, { "code": "BE", "value": "Belgium" }, { "code": "BZ", "value": "Belize" }, { "code": "BJ", "value": "Benin" }, { "code": "BM", "value": "Bermuda" }, { "code": "BT", "value": "Bhutan" }, { "code": "BO", "value": "Bolivia" }, { "code": "BA", "value": "Bosnia and Herzegovina" }, { "code": "BW", "value": "Botswana" }, { "code": "BV", "value": "Bouvet Island" }, { "code": "BR", "value": "Brazil" }, { "code": "IO", "value": "Brit/Indian Ocean Terr." }, { "code": "BN", "value": "Brunei Darussalam" }, { "code": "BG", "value": "Bulgaria" }, { "code": "BF", "value": "Burkina Faso" }, { "code": "BI", "value": "Burundi" }, { "code": "KH", "value": "Cambodia" }, { "code": "CM", "value": "Cameroon" }, { "code": "CA", "value": "Canada" }, { "code": "CV", "value": "Cape Verde" }, { "code": "KY", "value": "Cayman Islands" }, { "code": "CF", "value": "Central African Republic" }, { "code": "TD", "value": "Chad" }, { "code": "CL", "value": "Chile" }, { "code": "CN", "value": "China" }, { "code": "CX", "value": "Christmas Island" }, { "code": "CC", "value": "Cocos (Keeling) Islands" }, { "code": "CO", "value": "Colombia" }, { "code": "KM", "value": "Comoros" }, { "code": "CG", "value": "Congo" }, { "code": "CD", "value": "Congo, The Dem. Republic Of" }, { "code": "CK", "value": "Cook Islands" }, { "code": "CR", "value": "Costa Rica" }, { "code": "CI", "value": "Côte d'Ivoire" }, { "code": "HR", "value": "Croatia" }, { "code": "CU", "value": "Cuba" }, { "code": "CY", "value": "Cyprus" }, { "code": "CZ", "value": "Czech Republic" }, { "code": "DK", "value": "Denmark" }, { "code": "DJ", "value": "Djibouti" }, { "code": "DM", "value": "Dominica" }, { "code": "DO", "value": "Dominican Republic" }, { "code": "EC", "value": "Ecuador" }, { "code": "EG", "value": "Egypt" }, { "code": "SV", "value": "El Salvador" }, { "code": "GQ", "value": "Equatorial Guinea" }, { "code": "ER", "value": "Eritrea" }, { "code": "EE", "value": "Estonia" }, { "code": "ET", "value": "Ethiopia" }, { "code": "FK", "value": "Falkland Islands" }, { "code": "FO", "value": "Faroe Islands" }, { "code": "FJ", "value": "Fiji" }, { "code": "FI", "value": "Finland" }, { "code": "FR", "value": "France" }, { "code": "GF", "value": "French Guiana" }, { "code": "PF", "value": "French Polynesia" }, { "code": "TF", "value": "French Southern Terr." }, { "code": "GA", "value": "Gabon" }, { "code": "GM", "value": "Gambia" }, { "code": "GE", "value": "Georgia" }, { "code": "DE", "value": "Germany" }, { "code": "GH", "value": "Ghana" }, { "code": "GI", "value": "Gibraltar" }, { "code": "GB", "value": "United Kingdom" }, { "code": "GR", "value": "Greece" }, { "code": "GL", "value": "Greenland" }, { "code": "GD", "value": "Grenada" }, { "code": "GP", "value": "Guadeloupe" }, { "code": "GU", "value": "Guam" }, { "code": "GT", "value": "Guatemala" }, { "code": "GN", "value": "Guinea" }, { "code": "GW", "value": "Guinea-Bissau" }, { "code": "GY", "value": "Guyana" }, { "code": "HT", "value": "Haiti" }, { "code": "HM", "value": "Heard/McDonald Isls." }, { "code": "HN", "value": "Honduras" }, { "code": "HK", "value": "Hong Kong" }, { "code": "HU", "value": "Hungary" }, { "code": "IS", "value": "Iceland" }, { "code": "IN", "value": "India" }, { "code": "ID", "value": "Indonesia" }, { "code": "IR", "value": "Iran" }, { "code": "IQ", "value": "Iraq" }, { "code": "IE", "value": "Ireland" }, { "code": "IL", "value": "Israel" }, { "code": "IT", "value": "Italy" }, { "code": "JM", "value": "Jamaica" }, { "code": "JP", "value": "Japan" }, { "code": "JO", "value": "Jordan" }, { "code": "KZ", "value": "Kazakhstan" }, { "code": "KE", "value": "Kenya" }, { "code": "KI", "value": "Kiribati" }, { "code": "KP", "value": "Korea (North)" }, { "code": "KR", "value": "Korea (South)" }, { "code": "KW", "value": "Kuwait" }, { "code": "KG", "value": "Kyrgyzstan" }, { "code": "LA", "value": "Laos" }, { "code": "LV", "value": "Latvia" }, { "code": "LB", "value": "Lebanon" }, { "code": "LS", "value": "Lesotho" }, { "code": "LR", "value": "Liberia" }, { "code": "LY", "value": "Libya" }, { "code": "LI", "value": "Liechtenstein" }, { "code": "LT", "value": "Lithuania" }, { "code": "LU", "value": "Luxembourg" }, { "code": "MO", "value": "Macau" }, { "code": "MK", "value": "Macedonia" }, { "code": "MG", "value": "Madagascar" }, { "code": "MW", "value": "Malawi" }, { "code": "MY", "value": "Malaysia" }, { "code": "MV", "value": "Maldives" }, { "code": "ML", "value": "Mali" }, { "code": "MT", "value": "Malta" }, { "code": "MH", "value": "Marshall Islands" }, { "code": "MQ", "value": "Martinique" }, { "code": "MR", "value": "Mauritania" }, { "code": "MU", "value": "Mauritius" }, { "code": "YT", "value": "Mayotte" }, { "code": "MX", "value": "Mexico" }, { "code": "FM", "value": "Micronesia" }, { "code": "MD", "value": "Moldova" }, { "code": "MC", "value": "Monaco" }, { "code": "MN", "value": "Mongolia" }, { "code": "MS", "value": "Montserrat" }, { "code": "MA", "value": "Morocco" }, { "code": "MZ", "value": "Mozambique" }, { "code": "MM", "value": "Myanmar" }, { "code": "MP", "value": "N. Mariana Isls." }, { "code": "NA", "value": "Namibia" }, { "code": "NR", "value": "Nauru" }, { "code": "NP", "value": "Nepal" }, { "code": "NL", "value": "Netherlands" }, { "code": "AN", "value": "Netherlands Antilles" }, { "code": "NC", "value": "New Caledonia" }, { "code": "NZ", "value": "New Zealand" }, { "code": "NI", "value": "Nicaragua" }, { "code": "NE", "value": "Niger" }, { "code": "NG", "value": "Nigeria" }, { "code": "NU", "value": "Niue" }, { "code": "NF", "value": "Norfolk Island" }, { "code": "NO", "value": "Norway" }, { "code": "OM", "value": "Oman" }, { "code": "PK", "value": "Pakistan" }, { "code": "PW", "value": "Palau" }, { "code": "PS", "value": "Palestinian Territory, Occupied" }, { "code": "PA", "value": "Panama" }, { "code": "PG", "value": "Papua New Guinea" }, { "code": "PY", "value": "Paraguay" }, { "code": "PE", "value": "Peru" }, { "code": "PH", "value": "Philippines" }, { "code": "PN", "value": "Pitcairn" }, { "code": "PL", "value": "Poland" }, { "code": "PT", "value": "Portugal" }, { "code": "PR", "value": "Puerto Rico" }, { "code": "QA", "value": "Qatar" }, { "code": "RE", "value": "Reunion" }, { "code": "RO", "value": "Romania" }, { "code": "RU", "value": "Russian Federation" }, { "code": "RW", "value": "Rwanda" }, { "code": "KN", "value": "Saint Kitts and Nevis" }, { "code": "LC", "value": "Saint Lucia" }, { "code": "WS", "value": "Samoa" }, { "code": "SM", "value": "San Marino" }, { "code": "ST", "value": "Sao Tome/Principe" }, { "code": "SA", "value": "Saudi Arabia" }, { "code": "SN", "value": "Senegal" }, { "code": "CS", "value": "Serbia and Montenegro" }, { "code": "SC", "value": "Seychelles" }, { "code": "SL", "value": "Sierra Leone" }, { "code": "SG", "value": "Singapore" }, { "code": "SK", "value": "Slovak Republic" }, { "code": "SI", "value": "Slovenia" }, { "code": "SB", "value": "Solomon Islands" }, { "code": "SO", "value": "Somalia" }, { "code": "ZA", "value": "South Africa" }, { "code": "ES", "value": "Spain" }, { "code": "LK", "value": "Sri Lanka" }, { "code": "SH", "value": "St. Helena" }, { "code": "PM", "value": "St. Pierre and Miquelon" }, { "code": "VC", "value": "St. Vincent and Grenadines" }, { "code": "SD", "value": "Sudan" }, { "code": "SR", "value": "Suriname" }, { "code": "SJ", "value": "Svalbard/Jan Mayen Isls." }, { "code": "SZ", "value": "Swaziland" }, { "code": "SE", "value": "Sweden" }, { "code": "CH", "value": "Switzerland" }, { "code": "SY", "value": "Syria" }, { "code": "TW", "value": "Taiwan" }, { "code": "TJ", "value": "Tajikistan" }, { "code": "TZ", "value": "Tanzania" }, { "code": "TH", "value": "Thailand" }, { "code": "TL", "value": "Timor-Leste" }, { "code": "TG", "value": "Togo" }, { "code": "TK", "value": "Tokelau" }, { "code": "TO", "value": "Tonga" }, { "code": "TT", "value": "Trinidad and Tobago" }, { "code": "TN", "value": "Tunisia" }, { "code": "TR", "value": "Turkey" }, { "code": "TM", "value": "Turkmenistan" }, { "code": "TC", "value": "Turks/Caicos Isls." }, { "code": "TV", "value": "Tuvalu" }, { "code": "UG", "value": "Uganda" }, { "code": "UA", "value": "Ukraine" }, { "code": "AE", "value": "United Arab Emirates" }, { "code": "US", "value": "United States" }, { "code": "UM", "value": "US Minor Outlying Is." }, { "code": "UY", "value": "Uruguay" }, { "code": "UZ", "value": "Uzbekistan" }, { "code": "VU", "value": "Vanuatu" }, { "code": "VA", "value": "Vatican City" }, { "code": "VE", "value": "Venezuela" }, { "code": "VN", "value": "Viet Nam" }, { "code": "VG", "value": "Virgin Islands (British)" }, { "code": "VI", "value": "Virgin Islands (U.S.)" }, { "code": "WF", "value": "Wallis/Futuna Isls." }, { "code": "EH", "value": "Western Sahara" }, { "code": "YE", "value": "Yemen" }, { "code": "ZM", "value": "Zambia" }, { "code": "ZW", "value": "Zimbabwe" }];
 
-    function getCountryByCode(value) {
-        countryCode = data.find(item => item.value === value).code;
-        return countryCode;
-    }
-    var FirstLookup = true;
-    var elqForm;
-    var blnFound = false;
-    for (var formIndex = 0; formIndex < document.forms.length; formIndex++) {
-        for (var elemIndex = 0; elemIndex < document.forms[formIndex].length; elemIndex++) {
-            if (document.forms[formIndex].elements[elemIndex].name == "elqFormName") {
-                if (document.forms[formIndex].elements[elemIndex].value == "DSG-ContactUs") {
-                    elqForm = document.forms[formIndex];
-                    blnFound = true;
-                    break;
-                }
-            }
-        }
-        if (blnFound) break;
-    }
+  function getCountryByCode(value) {
+      countryCode = data.find(item => item.value === value).code;
+      return countryCode;
+  }
+  var FirstLookup = true;
+  var elqForm;
+  var blnFound = false;
+  for (var formIndex = 0; formIndex < document.forms.length; formIndex++) {
+      for (var elemIndex = 0; elemIndex < document.forms[formIndex].length; elemIndex++) {
+          if (document.forms[formIndex].elements[elemIndex].name == "elqFormName") {
+              if (document.forms[formIndex].elements[elemIndex].value == "DSG-ContactUs") {
+                  elqForm = document.forms[formIndex];
+                  blnFound = true;
+                  break;
+              }
+          }
+      }
+      if (blnFound) break;
+  }
 
-    function setFormFieldValue(elqForm, strFormFieldName, strContactFieldName) {
-        if (elqForm.elements[strFormFieldName])
-            elqForm.elements[strFormFieldName].value = GetElqContentPersonalizationValue(strContactFieldName);
-    }
+  function setFormFieldValue(elqForm, strFormFieldName, strContactFieldName) {
+      if (elqForm.elements[strFormFieldName])
+          elqForm.elements[strFormFieldName].value = GetElqContentPersonalizationValue(strContactFieldName);
+  }
 
-    function SetElqContent() {
-        if (FirstLookup) {
-            if (this.GetElqContentPersonalizationValue) {
-                if (elqForm) {
-                    setFormFieldValue(elqForm, "firstName", "First_Name");
-                    setFormFieldValue(elqForm, "lastName", "Last_Name");
-                    setFormFieldValue(elqForm, "company", "Company1p");
-                    setFormFieldValue(elqForm, "emailAddress", "Email_Address");
-                    setFormFieldValue(elqForm, "busPhone", "Business_Phone1");
-                    setFormFieldValue(elqForm, "country", "CountryName");
-                    setFormFieldValue(elqForm, "jobFunctionRole1", "Job_Function_Role");
-                   
-                }
-                _elqQ.push(['elqDataLookup', escape('d11e7f17918a44a7b59fcaf00c3385a6'), '<C_EmailAddress>' + GetElqContentPersonalizationValue("Email_Address") + '</C_EmailAddress>']);
-            }
-            FirstLookup = false;
-        }
-        else {
-            setFormFieldValue(elqForm, "jobFunctionRole1", "Job_Function_Role1");
-        }
-    }
+  function SetElqContent() {
+      if (FirstLookup) {
+          if (this.GetElqContentPersonalizationValue) {
+              if (elqForm) {
+                  setFormFieldValue(elqForm, "firstName", "First_Name");
+                  setFormFieldValue(elqForm, "lastName", "Last_Name");
+                  setFormFieldValue(elqForm, "company", "Company1p");
+                  setFormFieldValue(elqForm, "emailAddress", "Email_Address");
+                  setFormFieldValue(elqForm, "busPhone", "Business_Phone1");
+                  setFormFieldValue(elqForm, "country", "CountryName");
+                  setFormFieldValue(elqForm, "jobFunctionRole1", "Job_Function_Role");
+                 
+              }
+              _elqQ.push(['elqDataLookup', escape('d11e7f17918a44a7b59fcaf00c3385a6'), '<C_EmailAddress>' + GetElqContentPersonalizationValue("Email_Address") + '</C_EmailAddress>']);
+          }
+          FirstLookup = false;
+      }
+      else {
+          setFormFieldValue(elqForm, "jobFunctionRole1", "Job_Function_Role1");
+      }
+  }
 
 
-    _elqQ.push(['elqDataLookup', escape('1d25470ff99243ae889a6acc1e408377'), '']);
+  _elqQ.push(['elqDataLookup', escape('1d25470ff99243ae889a6acc1e408377'), '']);
 
 
 </script>
-  </div>
